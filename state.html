@@ -30,7 +30,29 @@
     <!-- <script type="text/javascript" src="static/js/logic.js"></script> -->
     <!-- <script type="text/javascript" src="static/js/logic2.js"></script> -->
     <!-- <script type="text/javascript" src="static/js/logic3.js"></script> -->
-    <script type="text/javascript" src="logic4.js"></script>
+    <!-- <script type="text/javascript" src="logic4.js"></script> -->
+
+    <button onclick="Func()">Show Details</button>
+    <p id="details"></p>
+  
+  
+    <script>
+      function Func() {
+        fetch("./load.json")
+          .then((res) => {
+            return res.json();
+          })
+          .then((data) => document.getElementById("details").innerHTML = 
+                (data.users[0].site + " - " + data.users[0].user));
+      }
+    </script>
+    <!-- <html lang="en">
+      // ...
+      <body>
+          <script type="module" src="./logic4.js"></script>
+      </body>
+  </html> -->
+
 
   </body>
 </html>

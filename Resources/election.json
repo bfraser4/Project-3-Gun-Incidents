@@ -1,1 +1,389 @@
-{"columns":["State","Governor Political Affiliation","State Senate Majority Political Affiliation","State House Majority Political Affiliation","State Attorney General Political Affiliation","State Insurance Commissioner Political Affiliation"],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50],"data":[["Alabama","Republican","Republican","Republican","Republican","Appointed"],["Alaska","Republican","Republican","Republican","Appointed","Appointed"],["Arizona","Republican","Republican","Republican","Republican","Appointed"],["Arkansas","Republican","Republican","Republican","Republican","Appointed"],["California","Democrat","Democrat","Democrat","Appointed","Democrat"],["Colorado","Democrat","Democrat","Democrat","Democrat","Appointed"],["Connecticut","Democrat","Democrat","Democrat","Democrat","Appointed"],["Delaware","Democrat","Democrat","Democrat","Democrat","Democrat"],["District of Columbia","Democrat","Democrat",null,"Democrat","Appointed"],["Florida","Republican","Republican","Republican","Republican","Appointed"],["Georgia","Republican","Republican","Republican","Republican","Republican"],["Hawaii","Democrat","Democrat","Democrat","Appointed","Appointed"],["Idaho","Republican","Republican","Republican","Republican","Appointed"],["Illinois","Democrat","Democrat","Democrat","Democrat","Appointed"],["Indiana","Republican","Republican","Republican","Republican","Appointed"],["Iowa","Republican","Republican","Republican","Democrat","Appointed"],["Kansas","Democrat","Republican","Republican","Republican","Republican"],["Kentucky","Democrat","Republican","Republican","Republican","Appointed"],["Louisiana","Democrat","Republican","Republican","Republican","Republican"],["Maine","Democrat","Democrat","Democrat","Appointed","Appointed"],["Maryland","Republican","Democrat","Democrat","Democrat","Appointed"],["Massachusetts","Republican","Democrat","Democrat","Democrat","Appointed"],["Michigan","Democrat","Republican","Republican","Democrat","Appointed"],["Minnesota","Democrat","Republican","Democrat","Democrat","Appointed"],["Mississippi","Republican","Republican","Republican","Republican","Republican"],["Missouri","Republican","Republican","Republican","Republican","Appointed"],["Montana","Republican","Republican","Republican","Republican","Republican"],["Nebraska","Republican",null,null,"Republican","Appointed"],["Nevada","Democrat","Democrat","Democrat","Democrat","Appointed"],["New Hampshire","Republican","Republican","Republican","Appointed","Appointed"],["New Jersey","Democrat","Democrat","Democrat","Appointed","Appointed"],["New Mexico","Democrat","Democrat","Democrat","Democrat","Appointed"],["New York","Democrat","Democrat","Democrat","Democrat","Appointed"],["North Carolina","Democrat","Republican","Republican","Democrat","Republican"],["North Dakota","Republican","Republican","Republican","Appointed","Republican"],["Ohio","Republican","Republican","Republican","Republican","Republican"],["Oklahoma","Republican","Republican","Republican","Republican","Republican"],["Oregon","Democrat","Democrat","Democrat","Democrat","Appointed"],["Pennsylvania","Democrat","Republican","Republican","Democrat","Appointed"],["Rhode Island","Democrat","Democrat","Democrat","Democrat","Appointed"],["South Carolina","Republican","Republican","Republican","Republican","Appointed"],["South Dakota","Republican","Republican","Republican","Republican","Appointed"],["Tennessee","Republican","Republican","Republican","Appointed","Appointed"],["Texas","Republican","Republican","Republican","Republican","Appointed"],["Utah","Republican","Republican","Republican","Republican","Appointed"],["Vermont","Republican","Democrat","Democrat","Democrat","Appointed"],["Virginia","Republican","Democrat","Republican","Republican","Appointed"],["Washington","Democrat","Democrat","Democrat","Democrat","Democrat"],["West Virginia","Republican","Republican","Republican","Republican","Appointed"],["Wisconsin","Democrat","Republican","Republican","Democrat","Appointed"],["Wyoming","Republican","Republican","Republican","Appointed","Appointed"]]}
+{
+    "schema": {
+        "fields": [
+            {
+                "name": "index",
+                "type": "integer"
+            },
+            {
+                "name": "State",
+                "type": "string"
+            },
+            {
+                "name": "Gov_Political_Affiliation",
+                "type": "string"
+            },
+            {
+                "name": "Lat",
+                "type": "number"
+            },
+            {
+                "name": "Long",
+                "type": "number"
+            }
+        ],
+        "primaryKey": [
+            "index"
+        ],
+        "pandas_version": "1.4.0"
+    },
+    "data": [
+        {
+            "index": 0,
+            "State": "Alabama",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 32.318231,
+            "Long": -86.902298
+        },
+        {
+            "index": 1,
+            "State": "Alaska",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 63.588753,
+            "Long": -154.493062
+        },
+        {
+            "index": 2,
+            "State": "Arizona",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 34.048928,
+            "Long": -111.093731
+        },
+        {
+            "index": 3,
+            "State": "Arkansas",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 35.20105,
+            "Long": -91.831833
+        },
+        {
+            "index": 4,
+            "State": "California",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 36.778261,
+            "Long": -119.417932
+        },
+        {
+            "index": 5,
+            "State": "Colorado",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 39.550051,
+            "Long": -105.782067
+        },
+        {
+            "index": 6,
+            "State": "Connecticut",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 41.603221,
+            "Long": -73.087749
+        },
+        {
+            "index": 7,
+            "State": "Delaware",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 38.910832,
+            "Long": -75.52767
+        },
+        {
+            "index": 8,
+            "State": "District of Columbia",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 38.905985,
+            "Long": -77.033418
+        },
+        {
+            "index": 9,
+            "State": "Florida",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 27.664827,
+            "Long": -81.515754
+        },
+        {
+            "index": 10,
+            "State": "Georgia",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 32.157435,
+            "Long": -82.907123
+        },
+        {
+            "index": 11,
+            "State": "Hawaii",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 19.898682,
+            "Long": -155.665857
+        },
+        {
+            "index": 12,
+            "State": "Idaho",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 44.068202,
+            "Long": -114.742041
+        },
+        {
+            "index": 13,
+            "State": "Illinois",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 40.633125,
+            "Long": -89.398528
+        },
+        {
+            "index": 14,
+            "State": "Indiana",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 40.551217,
+            "Long": -85.602364
+        },
+        {
+            "index": 15,
+            "State": "Iowa",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 41.878003,
+            "Long": -93.097702
+        },
+        {
+            "index": 16,
+            "State": "Kansas",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 39.011902,
+            "Long": -98.484246
+        },
+        {
+            "index": 17,
+            "State": "Kentucky",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 37.839333,
+            "Long": -84.270018
+        },
+        {
+            "index": 18,
+            "State": "Louisiana",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 31.244823,
+            "Long": -92.145024
+        },
+        {
+            "index": 19,
+            "State": "Maine",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 45.253783,
+            "Long": -69.445469
+        },
+        {
+            "index": 20,
+            "State": "Maryland",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 39.045755,
+            "Long": -76.641271
+        },
+        {
+            "index": 21,
+            "State": "Massachusetts",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 42.407211,
+            "Long": -71.382437
+        },
+        {
+            "index": 22,
+            "State": "Michigan",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 44.314844,
+            "Long": -85.602364
+        },
+        {
+            "index": 23,
+            "State": "Minnesota",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 46.729553,
+            "Long": -94.6859
+        },
+        {
+            "index": 24,
+            "State": "Mississippi",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 32.354668,
+            "Long": -89.398528
+        },
+        {
+            "index": 25,
+            "State": "Missouri",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 37.964253,
+            "Long": -91.831833
+        },
+        {
+            "index": 26,
+            "State": "Montana",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 46.879682,
+            "Long": -110.362566
+        },
+        {
+            "index": 27,
+            "State": "Nebraska",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 41.492537,
+            "Long": -99.901813
+        },
+        {
+            "index": 28,
+            "State": "Nevada",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 38.80261,
+            "Long": -116.419389
+        },
+        {
+            "index": 29,
+            "State": "New Hampshire",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 43.193852,
+            "Long": -71.572395
+        },
+        {
+            "index": 30,
+            "State": "New Jersey",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 40.058324,
+            "Long": -74.405661
+        },
+        {
+            "index": 31,
+            "State": "New Mexico",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 34.97273,
+            "Long": -105.032363
+        },
+        {
+            "index": 32,
+            "State": "New York",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 43.299428,
+            "Long": -74.217933
+        },
+        {
+            "index": 33,
+            "State": "North Carolina",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 35.759573,
+            "Long": -79.0193
+        },
+        {
+            "index": 34,
+            "State": "North Dakota",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 47.551493,
+            "Long": -101.002012
+        },
+        {
+            "index": 35,
+            "State": "Ohio",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 40.417287,
+            "Long": -82.907123
+        },
+        {
+            "index": 36,
+            "State": "Oklahoma",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 35.007752,
+            "Long": -97.092877
+        },
+        {
+            "index": 37,
+            "State": "Oregon",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 43.804133,
+            "Long": -120.554201
+        },
+        {
+            "index": 38,
+            "State": "Pennsylvania",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 41.203322,
+            "Long": -77.194525
+        },
+        {
+            "index": 39,
+            "State": "Rhode Island",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 41.580095,
+            "Long": -71.477429
+        },
+        {
+            "index": 40,
+            "State": "South Carolina",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 33.836081,
+            "Long": -81.163725
+        },
+        {
+            "index": 41,
+            "State": "South Dakota",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 43.969515,
+            "Long": -99.901813
+        },
+        {
+            "index": 42,
+            "State": "Tennessee",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 35.517491,
+            "Long": -86.580447
+        },
+        {
+            "index": 43,
+            "State": "Texas",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 31.968599,
+            "Long": -99.901813
+        },
+        {
+            "index": 44,
+            "State": "Utah",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 39.32098,
+            "Long": -111.093731
+        },
+        {
+            "index": 45,
+            "State": "Vermont",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 44.558803,
+            "Long": -72.577841
+        },
+        {
+            "index": 46,
+            "State": "Virginia",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 37.431573,
+            "Long": -78.656894
+        },
+        {
+            "index": 47,
+            "State": "Washington",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 47.751074,
+            "Long": -120.740139
+        },
+        {
+            "index": 48,
+            "State": "West Virginia",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 38.597626,
+            "Long": -80.454903
+        },
+        {
+            "index": 49,
+            "State": "Wisconsin",
+            "Gov_Political_Affiliation": "Democrat",
+            "Lat": 43.78444,
+            "Long": -88.787868
+        },
+        {
+            "index": 50,
+            "State": "Wyoming",
+            "Gov_Political_Affiliation": "Republican",
+            "Lat": 43.075968,
+            "Long": -107.290284
+        }
+    ]
+}

@@ -1,52 +1,52 @@
-﻿Location,Governor Political Affiliation,State Senate Majority Political Affiliation,State House Majority Political Affiliation,State Attorney General Political Affiliation,State Insurance Commissioner Political Affiliation,Footnotes
-Alabama,Republican,Republican,Republican,Republican,Appointed,
-Alaska,Republican,Republican,Republican,Appointed,Appointed,
-Arizona,Republican,Republican,Republican,Republican,Appointed,
-Arkansas,Republican,Republican,Republican,Republican,Appointed,
-California,Democrat,Democrat,Democrat,Appointed,Democrat,
-Colorado,Democrat,Democrat,Democrat,Democrat,Appointed,
-Connecticut,Democrat,Democrat,Democrat,Democrat,Appointed,
-Delaware,Democrat,Democrat,Democrat,Democrat,Democrat,
-District of Columbia,Democrat,Democrat,N/A,Democrat,Appointed,1
-Florida,Republican,Republican,Republican,Republican,Appointed,
-Georgia,Republican,Republican,Republican,Republican,Republican,
-Hawaii,Democrat,Democrat,Democrat,Appointed,Appointed,
-Idaho,Republican,Republican,Republican,Republican,Appointed,
-Illinois,Democrat,Democrat,Democrat,Democrat,Appointed,
-Indiana,Republican,Republican,Republican,Republican,Appointed,
-Iowa,Republican,Republican,Republican,Democrat,Appointed,
-Kansas,Democrat,Republican,Republican,Republican,Republican,
-Kentucky,Democrat,Republican,Republican,Republican,Appointed,
-Louisiana,Democrat,Republican,Republican,Republican,Republican,
-Maine,Democrat,Democrat,Democrat,Appointed,Appointed,
-Maryland,Republican,Democrat,Democrat,Democrat,Appointed,
-Massachusetts,Republican,Democrat,Democrat,Democrat,Appointed,
-Michigan,Democrat,Republican,Republican,Democrat,Appointed,
-Minnesota,Democrat,Republican,Democrat,Democrat,Appointed,
-Mississippi,Republican,Republican,Republican,Republican,Republican,
-Missouri,Republican,Republican,Republican,Republican,Appointed,
-Montana,Republican,Republican,Republican,Republican,Republican,
-Nebraska,Republican,N/A,N/A,Republican,Appointed,2
-Nevada,Democrat,Democrat,Democrat,Democrat,Appointed,
-New Hampshire,Republican,Republican,Republican,Appointed,Appointed,
-New Jersey,Democrat,Democrat,Democrat,Appointed,Appointed,
-New Mexico,Democrat,Democrat,Democrat,Democrat,Appointed,
-New York,Democrat,Democrat,Democrat,Democrat,Appointed,
-North Carolina,Democrat,Republican,Republican,Democrat,Republican,
-North Dakota,Republican,Republican,Republican,Appointed,Republican,
-Ohio,Republican,Republican,Republican,Republican,Republican,
-Oklahoma,Republican,Republican,Republican,Republican,Republican,
-Oregon,Democrat,Democrat,Democrat,Democrat,Appointed,
-Pennsylvania,Democrat,Republican,Republican,Democrat,Appointed,
-Rhode Island,Democrat,Democrat,Democrat,Democrat,Appointed,
-South Carolina,Republican,Republican,Republican,Republican,Appointed,
-South Dakota,Republican,Republican,Republican,Republican,Appointed,
-Tennessee,Republican,Republican,Republican,Appointed,Appointed,
-Texas,Republican,Republican,Republican,Republican,Appointed,
-Utah,Republican,Republican,Republican,Republican,Appointed,
-Vermont,Republican,Democrat,Democrat,Democrat,Appointed,
-Virginia,Republican,Democrat,Republican,Republican,Appointed,
-Washington,Democrat,Democrat,Democrat,Democrat,Democrat,
-West Virginia,Republican,Republican,Republican,Republican,Appointed,
-Wisconsin,Democrat,Republican,Republican,Democrat,Appointed,
-Wyoming,Republican,Republican,Republican,Appointed,Appointed,
+﻿Location,Governor Political Affiliation,State Senate Majority Political Affiliation,State House Majority Political Affiliation,State Attorney General Political Affiliation,State Insurance Commissioner Political Affiliation,Footnotes,Lat,Long
+Alabama,Republican,Republican,Republican,Republican,Appointed,,32.318231,-86.902298
+Alaska,Republican,Republican,Republican,Appointed,Appointed,,63.588753,-154.493062
+Arizona,Republican,Republican,Republican,Republican,Appointed,,34.048928,-111.093731
+Arkansas,Republican,Republican,Republican,Republican,Appointed,,35.20105,-91.831833
+California,Democrat,Democrat,Democrat,Appointed,Democrat,,36.778261,-119.417932
+Colorado,Democrat,Democrat,Democrat,Democrat,Appointed,,39.550051,-105.782067
+Connecticut,Democrat,Democrat,Democrat,Democrat,Appointed,,41.603221,-73.087749
+Delaware,Democrat,Democrat,Democrat,Democrat,Democrat,,38.910832,-75.52767
+District of Columbia,Democrat,Democrat,N/A,Democrat,Appointed,1,38.905985,-77.033418
+Florida,Republican,Republican,Republican,Republican,Appointed,,27.664827,-81.515754
+Georgia,Republican,Republican,Republican,Republican,Republican,,32.157435,-82.907123
+Hawaii,Democrat,Democrat,Democrat,Appointed,Appointed,,19.898682,-155.665857
+Idaho,Republican,Republican,Republican,Republican,Appointed,,44.068202,-114.742041
+Illinois,Democrat,Democrat,Democrat,Democrat,Appointed,,40.633125,-89.398528
+Indiana,Republican,Republican,Republican,Republican,Appointed,,40.551217,-85.602364
+Iowa,Republican,Republican,Republican,Democrat,Appointed,,41.878003,-93.097702
+Kansas,Democrat,Republican,Republican,Republican,Republican,,39.011902,-98.484246
+Kentucky,Democrat,Republican,Republican,Republican,Appointed,,37.839333,-84.270018
+Louisiana,Democrat,Republican,Republican,Republican,Republican,,31.244823,-92.145024
+Maine,Democrat,Democrat,Democrat,Appointed,Appointed,,45.253783,-69.445469
+Maryland,Republican,Democrat,Democrat,Democrat,Appointed,,39.045755,-76.641271
+Massachusetts,Republican,Democrat,Democrat,Democrat,Appointed,,42.407211,-71.382437
+Michigan,Democrat,Republican,Republican,Democrat,Appointed,,44.314844,-85.602364
+Minnesota,Democrat,Republican,Democrat,Democrat,Appointed,,46.729553,-94.6859
+Mississippi,Republican,Republican,Republican,Republican,Republican,,32.354668,-89.398528
+Missouri,Republican,Republican,Republican,Republican,Appointed,,37.964253,-91.831833
+Montana,Republican,Republican,Republican,Republican,Republican,,46.879682,-110.362566
+Nebraska,Republican,N/A,N/A,Republican,Appointed,2,41.492537,-99.901813
+Nevada,Democrat,Democrat,Democrat,Democrat,Appointed,,38.80261,-116.419389
+New Hampshire,Republican,Republican,Republican,Appointed,Appointed,,43.193852,-71.572395
+New Jersey,Democrat,Democrat,Democrat,Appointed,Appointed,,40.058324,-74.405661
+New Mexico,Democrat,Democrat,Democrat,Democrat,Appointed,,34.97273,-105.032363
+New York,Democrat,Democrat,Democrat,Democrat,Appointed,,43.299428,-74.217933
+North Carolina,Democrat,Republican,Republican,Democrat,Republican,,35.759573,-79.0193
+North Dakota,Republican,Republican,Republican,Appointed,Republican,,47.551493,-101.002012
+Ohio,Republican,Republican,Republican,Republican,Republican,,40.417287,-82.907123
+Oklahoma,Republican,Republican,Republican,Republican,Republican,,35.007752,-97.092877
+Oregon,Democrat,Democrat,Democrat,Democrat,Appointed,,43.804133,-120.554201
+Pennsylvania,Democrat,Republican,Republican,Democrat,Appointed,,41.203322,-77.194525
+Rhode Island,Democrat,Democrat,Democrat,Democrat,Appointed,,41.580095,-71.477429
+South Carolina,Republican,Republican,Republican,Republican,Appointed,,33.836081,-81.163725
+South Dakota,Republican,Republican,Republican,Republican,Appointed,,43.969515,-99.901813
+Tennessee,Republican,Republican,Republican,Appointed,Appointed,,35.517491,-86.580447
+Texas,Republican,Republican,Republican,Republican,Appointed,,31.968599,-99.901813
+Utah,Republican,Republican,Republican,Republican,Appointed,,39.32098,-111.093731
+Vermont,Republican,Democrat,Democrat,Democrat,Appointed,,44.558803,-72.577841
+Virginia,Republican,Democrat,Republican,Republican,Appointed,,37.431573,-78.656894
+Washington,Democrat,Democrat,Democrat,Democrat,Democrat,,47.751074,-120.740139
+West Virginia,Republican,Republican,Republican,Republican,Appointed,,38.597626,-80.454903
+Wisconsin,Democrat,Republican,Republican,Democrat,Appointed,,43.78444,-88.787868
+Wyoming,Republican,Republican,Republican,Appointed,Appointed,,43.075968,-107.290284
