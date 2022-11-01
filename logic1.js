@@ -11,26 +11,66 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Use this link to get the GeoJSON data.
 // var link = STATES;
-x = []
-//Importing json file to Javascript
-d3.json("./Resources/election.json").then(function(info){
+var link = "gz_2010_us_040_00_500k.json"
+function chooseColor(borough){
+    if (borough=="Republican") return "red";
+    else return "blue"
 
-//   console.log("info.data") 
-//     console.log(info.data.length) 
-    x= info.data
-// Loop through the cities array, and create one marker for each city object.
-    for (var i = 0; i < info.data.length; i++) {
-        console.log(info.data[i].State) 
-        state = info.data[i].State
-        lat = info.data[i].lat
-        long = info.data[i].long
-        affiliation = info.data[i].Gov_Political_Affiliation
+}
+// x = []
+// //Importing json file to Javascript
+// d3.json("./Resources/election.json").then(function(info){
 
-        if(affiliation == "Republican"){
-            color = "red"
+// //   console.log("info.data") 
+// //     console.log(info.data.length) 
+//     x= info.data
+//     console.log(x)
+// // Loop through the cities array, and create one marker for each city object.
+//     for (var i = 0; i < x.length; i++) {
+//         // console.log(x[i].State) 
+//         state = x[i].State
+//         lat = x[i].lat
+//         long = x[i].long
+//         affiliation = x[i].Gov_Political_Affiliation
+//         // console.log(x[i].Gov_Political_Affiliation)
+//         if(x[i].Gov_Political_Affiliation == "Republican"){
+//             color = "red"
+//         }
+//         else if (x[i].Gov_Political_Affiliation == "Democrat"){
+//             color = "blue"
+//         }
+//     }
+// })
+d3.json(link).then(function(data){
+    L.geoJson(data,{
+        style: function(feature){
+            return{
+                color: "white",
+                fillColor: chooseColor(feature.properties.borough),
+                fillOpacity: 0.5,
+                weight: 1.5
+            }
+        },
+        onEachFeature: function(feature, layer){
+            layer.on({
+                mouseover: function(event){
+                    layer=event.target
+                    layer.setStyle({
+                        fillOpacity:0.9
+                    })
+                },
+                mouseout: function(event){
+                    bob = event.target
+                    bob.setStyle({
+                        fillOpacity:0.5
+                    })
+                },
+                click: function(event){
+                    myMap.fitBounds(event.target.getBounds())
+                }
+            })
+            layer.bindPopup("<h1>"+feature.properties.neighborhood +"</h1>"+"<hr>" +"<h2>" +feature.properties.borough + "</h2>")
         }
-        else if (affiliation == "Democrat"){
-            color = "blue"
-        }
-    }
+    }).addTo(myMap)
 })
+
