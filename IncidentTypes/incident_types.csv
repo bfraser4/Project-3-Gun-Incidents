@@ -1,61 +1,313 @@
-Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8
-,,,Data from EveryStat for Gun Safety: Gun Violence Overview,,,,,
-,,,www.everytownresearch.org/everystat,,,,,
-,,,,,,,,
-,,,"Source: Centers for Disease Control and Prevention, National Center for Health Statistics, WONDER Online Database, Underlying Cause of Death. 2016–2020.",,,,,
-,,,Contact: everystat@everytown.org,,,,,
-,,,"Last Updated: January 20, 2022",,,,,
-,,,,,,,,
-State,First Year, Last Year,Injury Intent,Total Deaths (#),Avg. Yearly Deaths (#),Population,"Age-adjusted Rate (per 100,000)",Rank
-Alabama,2016,2020,All Firearm Deaths,5451,1090,24450635,22.401010513305664,4
-Alaska,2016,2020,All Firearm Deaths,866,173,3681830,23.383060455322266,2
-Arizona,2016,2020,All Firearm Deaths,5776,1155,35819105,15.615030288696289,19
-Arkansas,2016,2020,All Firearm Deaths,2980,596,15054678,19.763309478759766,8
-California,2016,2020,All Firearm Deaths,15802,3160,197224016,7.800879955291748,45
-Colorado,2016,2020,All Firearm Deaths,4248,850,28409718,14.505590438842773,22
-Connecticut,2016,2020,All Firearm Deaths,955,191,17859594,5.171170234680176,46
-Delaware,2016,2020,All Firearm Deaths,557,111,4841748,11.695520401000977,36
-District of Columbia,2016,2020,All Firearm Deaths,640,128,3496162,16.753110885620117,15
-Florida,2016,2020,All Firearm Deaths,14243,2849,106107213,12.85927963256836,27
-Georgia,2016,2020,All Firearm Deaths,8466,1693,52586665,15.962550163269043,17
-Hawaii,2016,2020,All Firearm Deaths,276,55,7099464,3.7664198875427246,50
-Idaho,2016,2020,All Firearm Deaths,1392,278,8768269,15.919989585876465,18
-Illinois,2016,2020,All Firearm Deaths,7527,1505,63603993,11.897740364074707,35
-Indiana,2016,2020,All Firearm Deaths,5107,1021,33478921,15.255180358886719,20
-Iowa,2016,2020,All Firearm Deaths,1508,302,15755180,9.424969673156738,42
-Kansas,2016,2020,All Firearm Deaths,2170,434,14559036,14.97665023803711,21
-Kentucky,2016,2020,All Firearm Deaths,3848,770,22304489,17.129819869995117,14
-Louisiana,2016,2020,All Firearm Deaths,5182,1036,23320089,22.558929443359375,3
-Maine,2016,2020,All Firearm Deaths,770,154,6700143,10.451560020446777,40
-Maryland,2016,2020,All Firearm Deaths,3716,743,30212824,12.419679641723633,32
-Massachusetts,2016,2020,All Firearm Deaths,1277,255,34359824,3.546799898147583,51
-Michigan,2016,2020,All Firearm Deaths,6352,1270,49839938,12.663829803466797,29
-Minnesota,2016,2020,All Firearm Deaths,2312,462,28004711,8.118889808654785,44
-Mississippi,2016,2020,All Firearm Deaths,3428,686,14902291,23.42057991027832,1
-Missouri,2016,2020,All Firearm Deaths,6440,1288,30621960,21.291980743408203,5
-Montana,2016,2020,All Firearm Deaths,1071,214,5304673,19.719249725341797,9
-Nebraska,2016,2020,All Firearm Deaths,916,183,9628420,9.392569541931152,43
-Nevada,2016,2020,All Firearm Deaths,2593,519,15190904,16.679630279541016,16
-New Hampshire,2016,2020,All Firearm Deaths,717,143,6760034,9.998709678649902,41
-New Jersey,2016,2020,All Firearm Deaths,2194,439,44623194,4.943689823150635,47
-New Mexico,2016,2020,All Firearm Deaths,2165,433,10467661,20.463899612426758,7
-New York,2016,2020,All Firearm Deaths,4349,870,97927234,4.294539928436279,48
-North Carolina,2016,2020,All Firearm Deaths,7351,1470,51892734,13.976180076599121,23
-North Dakota,2016,2020,All Firearm Deaths,475,95,3800793,12.591560363769531,30
-Ohio,2016,2020,All Firearm Deaths,8010,1602,58344741,13.65524959564209,24
-Oklahoma,2016,2020,All Firearm Deaths,3675,735,19735258,18.59238052368164,12
-Oregon,2016,2020,All Firearm Deaths,2718,544,20886198,12.23917007446289,33
-Pennsylvania,2016,2020,All Firearm Deaths,8138,1628,63982067,12.44888973236084,31
-Rhode Island,2016,2020,All Firearm Deaths,231,46,5289866,4.179140090942383,49
-South Carolina,2016,2020,All Firearm Deaths,4822,964,25436369,18.944000244140625,10
-South Dakota,2016,2020,All Firearm Deaths,559,112,4394731,13.0831298828125,26
-Tennessee,2016,2020,All Firearm Deaths,6365,1273,33853196,18.635530471801758,11
-Texas,2016,2020,All Firearm Deaths,18235,3647,143225677,12.744549751281738,28
-United States,2016,2020,All Firearm Deaths,203100,40620,1633737771,12.22959041595459,
-Utah,2016,2020,All Firearm Deaths,2000,400,15769992,13.312529563903809,25
-Vermont,2016,2020,All Firearm Deaths,373,75,3121886,11.315150260925293,37
-Virginia,2016,2020,All Firearm Deaths,5324,1065,42525595,12.180370330810547,34
-Washington,2016,2020,All Firearm Deaths,4050,810,37537839,10.4520902633667,39
-West Virginia,2016,2020,All Firearm Deaths,1648,330,9029725,17.78775978088379,13
-Wisconsin,2016,2020,All Firearm Deaths,3207,641,29042848,10.895119667053223,38
-Wyoming,2016,2020,All Firearm Deaths,625,125,2903640,21.169700622558594,6
+State, First Year, Last Year, Injury Intent, Total Deaths, Avg. Yearly Deaths, Population, Age-adjusted Rate (per 100,000)
+Alabama,2016,2020,Firearm Suicide,2760,552,24450635,10.723710060119629
+Alabama,2016,2020,Undetermined Firearm Death,63,13,24450635,0.26935
+Alabama,2016,2020,Firearm Homicide,2478,496,24450635,10.791330337524414
+Alabama,2016,2020,Shootings by Police,35,7,24450635,0.14144
+Alabama,2016,2020,Unintentional Firearm Death,115,23,24450635,0.48142
+Alabama,2016,2020,All Firearm Deaths,5451,1090,24450635,22.401010513305664
+Alaska,2016,2020,Undetermined Firearm Death,31,6,3681830,0.79489
+Alaska,2016,2020,Shootings by Police,24,5,3681830,0.66226
+Alaska,2016,2020,Unintentional Firearm Death,16,3,3681830,
+Alaska,2016,2020,All Firearm Deaths,866,173,3681830,23.383060455322266
+Alaska,2016,2020,Firearm Suicide,589,118,3681830,15.779520034790039
+Alaska,2016,2020,Firearm Homicide,206,41,3681830,5.683859825134277
+Arizona,2016,2020,Undetermined Firearm Death,83,17,35819105,0.2158
+Arizona,2016,2020,Shootings by Police,91,18,35819105,0.27471
+Arizona,2016,2020,Firearm Suicide,3988,798,35819105,10.412030220031738
+Arizona,2016,2020,Firearm Homicide,1567,313,35819105,4.598780155181885
+Arizona,2016,2020,All Firearm Deaths,5776,1155,35819105,15.615030288696289
+Arizona,2016,2020,Unintentional Firearm Death,47,9,35819105,0.10993
+Arkansas,2016,2020,Unintentional Firearm Death,65,13,15054678,0.4607
+Arkansas,2016,2020,Undetermined Firearm Death,43,9,15054678,0.30683
+Arkansas,2016,2020,All Firearm Deaths,2980,596,15054678,19.763309478759766
+Arkansas,2016,2020,Firearm Homicide,1058,212,15054678,7.48544979095459
+Arkansas,2016,2020,Shootings by Police,41,8,15054678,0.3012
+Arkansas,2016,2020,Firearm Suicide,1773,355,15054678,11.264670372009277
+California,2016,2020,All Firearm Deaths,15802,3160,197224016,7.800879955291748
+California,2016,2020,Firearm Suicide,7972,1594,197224016,3.825670003890991
+California,2016,2020,Undetermined Firearm Death,85,17,197224016,0.04523
+California,2016,2020,Shootings by Police,416,83,197224016,0.20046
+California,2016,2020,Firearm Homicide,7155,1431,197224016,3.6563799381256104
+California,2016,2020,Unintentional Firearm Death,174,35,197224016,0.09638
+Colorado,2016,2020,Firearm Homicide,908,182,28409718,3.20989990234375
+Colorado,2016,2020,All Firearm Deaths,4248,850,28409718,14.505590438842773
+Colorado,2016,2020,Firearm Suicide,3166,633,28409718,10.675979614257812
+Colorado,2016,2020,Undetermined Firearm Death,31,6,28409718,0.09057
+Colorado,2016,2020,Shootings by Police,106,21,28409718,0.36022
+Colorado,2016,2020,Unintentional Firearm Death,37,7,28409718,0.13316
+Connecticut,2016,2020,Undetermined Firearm Death,10,2,17859594,
+Connecticut,2016,2020,All Firearm Deaths,955,191,17859594,5.171170234680176
+Connecticut,2016,2020,Firearm Suicide,573,115,17859594,2.8710200786590576
+Connecticut,2016,2020,Shootings by Police,18,4,17859594,
+Connecticut,2016,2020,Unintentional Firearm Death,,,17859594,
+Connecticut,2016,2020,Firearm Homicide,348,70,17859594,2.109070062637329
+Delaware,2016,2020,Shootings by Police,,,4841748,
+Delaware,2016,2020,All Firearm Deaths,557,111,4841748,11.695520401000977
+Delaware,2016,2020,Firearm Homicide,268,54,4841748,6.1360602378845215
+Delaware,2016,2020,Undetermined Firearm Death,,,4841748,
+Delaware,2016,2020,Firearm Suicide,276,55,4841748,5.304419994354248
+Delaware,2016,2020,Unintentional Firearm Death,,,4841748,
+District of Columbia,2016,2020,Shootings by Police,,,3496162,
+District of Columbia,2016,2020,Unintentional Firearm Death,,,,
+District of Columbia,2016,2020,All Firearm Deaths,640,128,3496162,16.753110885620117
+District of Columbia,2016,2020,Firearm Suicide,43,9,3496162,1.188349962234497
+District of Columbia,2016,2020,Undetermined Firearm Death,,,3496162,
+District of Columbia,2016,2020,Firearm Homicide,589,118,3496162,15.343379974365234
+Florida,2016,2020,Firearm Homicide,5156,1031,106107213,5.35959005355835
+Florida,2016,2020,Undetermined Firearm Death,79,16,106107213,0.07976
+Florida,2016,2020,All Firearm Deaths,14243,2849,106107213,12.85927963256836
+Florida,2016,2020,Firearm Suicide,8802,1760,106107213,7.2050700187683105
+Florida,2016,2020,Unintentional Firearm Death,76,15,106107213,0.09498
+Florida,2016,2020,Shootings by Police,130,26,106107213,0.13932
+Georgia,2016,2020,All Firearm Deaths,8466,1693,52586665,15.962550163269043
+Georgia,2016,2020,Firearm Suicide,4660,932,52586665,8.580690383911133
+Georgia,2016,2020,Shootings by Police,95,19,52586665,0.17752
+Georgia,2016,2020,Undetermined Firearm Death,55,11,52586665,0.08529
+Georgia,2016,2020,Firearm Homicide,3553,711,52586665,6.883029937744141
+Georgia,2016,2020,Unintentional Firearm Death,103,21,52586665,0.19917
+Hawaii,2016,2020,Shootings by Police,20,4,7099464,0.26191
+Hawaii,2016,2020,Unintentional Firearm Death,,,7099464,
+Hawaii,2016,2020,All Firearm Deaths,276,55,7099464,3.7664198875427246
+Hawaii,2016,2020,Firearm Suicide,169,34,7099464,2.212599992752075
+Hawaii,2016,2020,Undetermined Firearm Death,,,7099464,
+Hawaii,2016,2020,Firearm Homicide,76,15,7099464,1.121649980545044
+Idaho,2016,2020,Firearm Suicide,1209,242,8768269,13.678689956665039
+Idaho,2016,2020,Shootings by Police,32,6,8768269,0.40785
+Idaho,2016,2020,All Firearm Deaths,1392,278,8768269,15.919989585876465
+Idaho,2016,2020,Firearm Homicide,117,23,8768269,1.4538999795913696
+Idaho,2016,2020,Unintentional Firearm Death,25,5,8768269,0.3038
+Idaho,2016,2020,Undetermined Firearm Death,,,8768269,
+Illinois,2016,2020,All Firearm Deaths,7527,1505,63603993,11.897740364074707
+Illinois,2016,2020,Firearm Suicide,2739,548,63603993,4.028590202331543
+Illinois,2016,2020,Shootings by Police,49,10,63603993,0.05724
+Illinois,2016,2020,Unintentional Firearm Death,58,12,63603993,0.09027
+Illinois,2016,2020,Firearm Homicide,4620,924,63603993,7.565370082855225
+Illinois,2016,2020,Undetermined Firearm Death,61,12,63603993,0.10749
+Indiana,2016,2020,Shootings by Police,57,11,33478921,0.1679
+Indiana,2016,2020,Firearm Homicide,1954,391,33478921,6.1592698097229
+Indiana,2016,2020,Firearm Suicide,2962,592,33478921,8.514089584350586
+Indiana,2016,2020,All Firearm Deaths,5107,1021,33478921,15.255180358886719
+Indiana,2016,2020,Unintentional Firearm Death,84,17,33478921,0.2522
+Indiana,2016,2020,Undetermined Firearm Death,50,10,33478921,0.1595
+Iowa,2016,2020,Firearm Homicide,282,56,15755180,1.9448699951171875
+Iowa,2016,2020,All Firearm Deaths,1508,302,15755180,9.424969673156738
+Iowa,2016,2020,Shootings by Police,,,15755180,
+Iowa,2016,2020,Undetermined Firearm Death,19,4,15755180,
+Iowa,2016,2020,Unintentional Firearm Death,24,5,15755180,0.15358
+Iowa,2016,2020,Firearm Suicide,1174,235,15755180,7.167699813842773
+Kansas,2016,2020,Unintentional Firearm Death,35,7,14559036,0.2341
+Kansas,2016,2020,Firearm Suicide,1470,294,14559036,9.92251968383789
+Kansas,2016,2020,Shootings by Police,15,3,14559036,
+Kansas,2016,2020,Undetermined Firearm Death,18,4,14559036,
+Kansas,2016,2020,All Firearm Deaths,2170,434,14559036,14.97665023803711
+Kansas,2016,2020,Firearm Homicide,632,126,14559036,4.594989776611328
+Kentucky,2016,2020,Firearm Homicide,1211,242,22304489,5.799870014190674
+Kentucky,2016,2020,Unintentional Firearm Death,101,20,22304489,0.43749
+Kentucky,2016,2020,Undetermined Firearm Death,44,9,22304489,0.19621
+Kentucky,2016,2020,Shootings by Police,55,11,22304489,0.26362
+Kentucky,2016,2020,All Firearm Deaths,3848,770,22304489,17.129819869995117
+Kentucky,2016,2020,Firearm Suicide,2437,487,22304489,10.409939765930176
+Louisiana,2016,2020,Undetermined Firearm Death,42,8,23320089,0.18617
+Louisiana,2016,2020,Firearm Suicide,2203,441,23320089,9.130120277404785
+Louisiana,2016,2020,Shootings by Police,30,6,23320089,0.14179
+Louisiana,2016,2020,Unintentional Firearm Death,61,12,23320089,0.26371
+Louisiana,2016,2020,Firearm Homicide,2846,569,23320089,12.800100326538086
+Louisiana,2016,2020,All Firearm Deaths,5182,1036,23320089,22.558929443359375
+Maine,2016,2020,Unintentional Firearm Death,11,2,6700143,
+Maine,2016,2020,Shootings by Police,16,3,6700143,
+Maine,2016,2020,Undetermined Firearm Death,,,6700143,
+Maine,2016,2020,Firearm Homicide,55,11,6700143,0.8374500274658203
+Maine,2016,2020,All Firearm Deaths,770,154,6700143,10.451560020446777
+Maine,2016,2020,Firearm Suicide,686,137,6700143,9.158909797668457
+Maryland,2016,2020,Firearm Homicide,2310,462,30212824,8.058309555053711
+Maryland,2016,2020,Shootings by Police,59,12,30212824,0.19834
+Maryland,2016,2020,Firearm Suicide,1323,265,30212824,4.0638298988342285
+Maryland,2016,2020,Unintentional Firearm Death,13,3,30212824,
+Maryland,2016,2020,All Firearm Deaths,3716,743,30212824,12.419679641723633
+Maryland,2016,2020,Undetermined Firearm Death,11,2,30212824,
+Massachusetts,2016,2020,Unintentional Firearm Death,,,34359824,
+Massachusetts,2016,2020,Firearm Suicide,716,143,34359824,1.878640055656433
+Massachusetts,2016,2020,Undetermined Firearm Death,10,2,34359824,
+Massachusetts,2016,2020,Shootings by Police,23,5,34359824,0.07312
+Massachusetts,2016,2020,All Firearm Deaths,1277,255,34359824,3.546799898147583
+Massachusetts,2016,2020,Firearm Homicide,521,104,34359824,1.561079978942871
+Michigan,2016,2020,Firearm Homicide,2529,506,49839938,5.447239875793457
+Michigan,2016,2020,Shootings by Police,30,6,49839938,0.07072
+Michigan,2016,2020,Firearm Suicide,3708,742,49839938,6.96412992477417
+Michigan,2016,2020,Undetermined Firearm Death,46,9,49839938,0.08366
+Michigan,2016,2020,Unintentional Firearm Death,39,8,49839938,0.08394
+Michigan,2016,2020,All Firearm Deaths,6352,1270,49839938,12.663829803466797
+Minnesota,2016,2020,Shootings by Police,49,10,28004711,0.18037
+Minnesota,2016,2020,All Firearm Deaths,2312,462,28004711,8.118889808654785
+Minnesota,2016,2020,Firearm Homicide,467,93,28004711,1.7622100114822388
+Minnesota,2016,2020,Unintentional Firearm Death,17,3,28004711,
+Minnesota,2016,2020,Firearm Suicide,1757,351,28004711,6.039480209350586
+Minnesota,2016,2020,Undetermined Firearm Death,22,4,28004711,0.09112
+Mississippi,2016,2020,Shootings by Police,28,6,14902291,0.23655
+Mississippi,2016,2020,Firearm Suicide,1462,292,14902291,9.495100021362305
+Mississippi,2016,2020,Unintentional Firearm Death,107,21,14902291,0.7128
+Mississippi,2016,2020,Firearm Homicide,1762,352,14902291,12.486989974975586
+Mississippi,2016,2020,All Firearm Deaths,3428,686,14902291,23.42057991027832
+Mississippi,2016,2020,Undetermined Firearm Death,69,14,14902291,0.4626
+Missouri,2016,2020,Undetermined Firearm Death,43,9,30621960,0.15492
+Missouri,2016,2020,Shootings by Police,40,8,30621960,0.15038
+Missouri,2016,2020,Firearm Homicide,2804,561,30621960,9.791669845581055
+Missouri,2016,2020,Firearm Suicide,3462,692,30621960,10.872900009155273
+Missouri,2016,2020,All Firearm Deaths,6440,1288,30621960,21.291980743408203
+Missouri,2016,2020,Unintentional Firearm Death,91,18,30621960,0.30516
+Montana,2016,2020,Firearm Suicide,896,179,5304673,16.11764907836914
+Montana,2016,2020,Unintentional Firearm Death,16,3,5304673,
+Montana,2016,2020,Undetermined Firearm Death,14,3,5304673,
+Montana,2016,2020,All Firearm Deaths,1071,214,5304673,19.719249725341797
+Montana,2016,2020,Shootings by Police,29,6,5304673,0.62169
+Montana,2016,2020,Firearm Homicide,116,23,5304673,2.361799955368042
+Nebraska,2016,2020,Undetermined Firearm Death,12,2,9628420,
+Nebraska,2016,2020,Unintentional Firearm Death,23,5,9628420,0.25959
+Nebraska,2016,2020,Shootings by Police,13,3,9628420,
+Nebraska,2016,2020,All Firearm Deaths,916,183,9628420,9.392569541931152
+Nebraska,2016,2020,Firearm Homicide,188,38,9628420,2.0293500423431396
+Nebraska,2016,2020,Firearm Suicide,680,136,9628420,6.840789794921875
+Nevada,2016,2020,Shootings by Police,70,14,15190904,0.4815
+Nevada,2016,2020,Firearm Homicide,726,145,15190904,5.0278000831604
+Nevada,2016,2020,All Firearm Deaths,2593,519,15190904,16.679630279541016
+Nevada,2016,2020,Firearm Suicide,1756,351,15190904,10.908490180969238
+Nevada,2016,2020,Undetermined Firearm Death,24,5,15190904,0.15104
+Nevada,2016,2020,Unintentional Firearm Death,17,3,15190904,
+New Hampshire,2016,2020,Shootings by Police,14,3,6760034,
+New Hampshire,2016,2020,Firearm Homicide,55,11,6760034,0.8352199792861938
+New Hampshire,2016,2020,Firearm Suicide,640,128,6760034,8.786970138549805
+New Hampshire,2016,2020,Unintentional Firearm Death,,,6760034,
+New Hampshire,2016,2020,All Firearm Deaths,717,143,6760034,9.998709678649902
+New Hampshire,2016,2020,Undetermined Firearm Death,,,6760034,
+New Jersey,2016,2020,Shootings by Police,20,4,44623194,0.05241
+New Jersey,2016,2020,Undetermined Firearm Death,,,44623194,
+New Jersey,2016,2020,All Firearm Deaths,2194,439,44623194,4.943689823150635
+New Jersey,2016,2020,Unintentional Firearm Death,18,4,44623194,
+New Jersey,2016,2020,Firearm Suicide,927,185,44623194,1.8807100057601929
+New Jersey,2016,2020,Firearm Homicide,1222,244,44623194,2.968630075454712
+New Mexico,2016,2020,Firearm Homicide,657,131,10467661,6.7081499099731445
+New Mexico,2016,2020,All Firearm Deaths,2165,433,10467661,20.463899612426758
+New Mexico,2016,2020,Undetermined Firearm Death,30,6,10467661,0.29409
+New Mexico,2016,2020,Shootings by Police,79,16,10467661,0.82679
+New Mexico,2016,2020,Unintentional Firearm Death,27,5,10467661,0.27457
+New Mexico,2016,2020,Firearm Suicide,1372,274,10467661,12.384949684143066
+New York,2016,2020,Unintentional Firearm Death,34,7,97927234,0.01386
+New York,2016,2020,Undetermined Firearm Death,19,4,97927234,
+New York,2016,2020,All Firearm Deaths,4349,870,97927234,4.294539928436279
+New York,2016,2020,Firearm Suicide,2285,457,97927234,2.1068599224090576
+New York,2016,2020,Firearm Homicide,1945,389,97927234,2.051409959793091
+New York,2016,2020,Shootings by Police,66,13,97927234,0.07072
+North Carolina,2016,2020,Unintentional Firearm Death,179,36,51892734,0.34664
+North Carolina,2016,2020,Firearm Suicide,4161,832,51892734,7.551310062408447
+North Carolina,2016,2020,Firearm Homicide,2854,571,51892734,5.729770183563232
+North Carolina,2016,2020,Shootings by Police,104,21,51892734,0.20668
+North Carolina,2016,2020,All Firearm Deaths,7351,1470,51892734,13.976180076599121
+North Carolina,2016,2020,Undetermined Firearm Death,53,11,51892734,0.10542
+North Dakota,2016,2020,Firearm Suicide,399,80,3800793,10.463569641113281
+North Dakota,2016,2020,All Firearm Deaths,475,95,3800793,12.591560363769531
+North Dakota,2016,2020,Undetermined Firearm Death,,,3800793,
+North Dakota,2016,2020,Unintentional Firearm Death,11,2,3800793,
+North Dakota,2016,2020,Firearm Homicide,58,12,3800793,1.6238199472427368
+North Dakota,2016,2020,Shootings by Police,,,3800793,
+Ohio,2016,2020,All Firearm Deaths,8010,1602,58344741,13.65524959564209
+Ohio,2016,2020,Firearm Suicide,4689,938,58344741,7.570069789886475
+Ohio,2016,2020,Unintentional Firearm Death,70,14,58344741,0.12092
+Ohio,2016,2020,Firearm Homicide,3115,623,58344741,5.726860046386719
+Ohio,2016,2020,Undetermined Firearm Death,65,13,58344741,0.11109
+Ohio,2016,2020,Shootings by Police,71,14,58344741,0.12313
+Oklahoma,2016,2020,Firearm Homicide,1166,233,19735258,6.220900058746338
+Oklahoma,2016,2020,Undetermined Firearm Death,40,8,19735258,0.20521
+Oklahoma,2016,2020,Unintentional Firearm Death,35,7,19735258,0.18557
+Oklahoma,2016,2020,Firearm Suicide,2432,486,19735258,11.97169017791748
+Oklahoma,2016,2020,Shootings by Police,,,19735258,
+Oklahoma,2016,2020,All Firearm Deaths,3675,735,19735258,18.59238052368164
+Oregon,2016,2020,Firearm Homicide,405,81,20886198,2.007849931716919
+Oregon,2016,2020,Unintentional Firearm Death,27,5,20886198,0.11858
+Oregon,2016,2020,Undetermined Firearm Death,21,4,20886198,0.10226
+Oregon,2016,2020,All Firearm Deaths,2718,544,20886198,12.23917007446289
+Oregon,2016,2020,Firearm Suicide,2200,440,20886198,9.694450378417969
+Oregon,2016,2020,Shootings by Police,65,13,20886198,0.33068
+Pennsylvania,2016,2020,Unintentional Firearm Death,80,16,63982067,0.12738
+Pennsylvania,2016,2020,Undetermined Firearm Death,45,9,63982067,0.07103
+Pennsylvania,2016,2020,Firearm Suicide,4877,975,63982067,6.948780059814453
+Pennsylvania,2016,2020,Firearm Homicide,3057,611,63982067,5.1628499031066895
+Pennsylvania,2016,2020,All Firearm Deaths,8138,1628,63982067,12.44888973236084
+Pennsylvania,2016,2020,Shootings by Police,79,16,63982067,0.12701
+Rhode Island,2016,2020,Shootings by Police,,,5289866,
+Rhode Island,2016,2020,Firearm Homicide,70,14,5289866,1.3974900245666504
+Rhode Island,2016,2020,Unintentional Firearm Death,,,5289866,
+Rhode Island,2016,2020,Undetermined Firearm Death,,,5289866,
+Rhode Island,2016,2020,All Firearm Deaths,231,46,5289866,4.179140090942383
+Rhode Island,2016,2020,Firearm Suicide,154,31,5289866,2.6661999225616455
+South Carolina,2016,2020,All Firearm Deaths,4822,964,25436369,18.944000244140625
+South Carolina,2016,2020,Unintentional Firearm Death,94,19,25436369,0.39449
+South Carolina,2016,2020,Shootings by Police,23,5,25436369,0.09301
+South Carolina,2016,2020,Firearm Suicide,2646,529,25436369,9.8258695602417
+South Carolina,2016,2020,Undetermined Firearm Death,32,6,25436369,0.12958
+South Carolina,2016,2020,Firearm Homicide,2027,405,25436369,8.519009590148926
+South Dakota,2016,2020,Undetermined Firearm Death,,,4394731,
+South Dakota,2016,2020,Firearm Suicide,444,89,4394731,10.192090034484863
+South Dakota,2016,2020,Shootings by Police,16,3,4394731,
+South Dakota,2016,2020,All Firearm Deaths,559,112,4394731,13.0831298828125
+South Dakota,2016,2020,Firearm Homicide,78,16,4394731,1.9897600412368774
+South Dakota,2016,2020,Unintentional Firearm Death,20,4,4394731,0.44452
+Tennessee,2016,2020,Firearm Suicide,3589,718,33853196,10.00195026397705
+Tennessee,2016,2020,Firearm Homicide,2531,506,33853196,7.880360126495361
+Tennessee,2016,2020,Undetermined Firearm Death,98,20,33853196,0.31477
+Tennessee,2016,2020,Shootings by Police,63,13,33853196,0.19348
+Tennessee,2016,2020,All Firearm Deaths,6365,1273,33853196,18.635530471801758
+Tennessee,2016,2020,Unintentional Firearm Death,84,17,33853196,0.24445
+Texas,2016,2020,Firearm Homicide,6654,1331,143225677,4.664330005645752
+Texas,2016,2020,All Firearm Deaths,18235,3647,143225677,12.744549751281738
+Texas,2016,2020,Unintentional Firearm Death,221,44,143225677,0.14492
+Texas,2016,2020,Undetermined Firearm Death,185,37,143225677,0.13282
+Texas,2016,2020,Firearm Suicide,10961,2192,143225677,7.65103006362915
+Texas,2016,2020,Shootings by Police,214,43,143225677,0.15288
+United States,2016,2020,All Firearm Deaths,203100,40620,1633737771,12.22959041595459
+United States,2016,2020,Firearm Homicide,76713,15343,1633737771,4.908010005950928
+United States,2016,2020,Unintentional Firearm Death,2460,492,1633737771,0.14544
+United States,2016,2020,Undetermined Firearm Death,1737,347,1633737771,0.1044
+United States,2016,2020,Firearm Suicide,119457,23891,1633737771,6.91609001159668
+United States,2016,2020,Shootings by Police,2733,547,1633737771,0.16644
+Utah,2016,2020,Undetermined Firearm Death,23,5,15769992,0.1442
+Utah,2016,2020,Shootings by Police,49,10,15769992,0.31741
+Utah,2016,2020,All Firearm Deaths,2000,400,15769992,13.312529563903809
+Utah,2016,2020,Unintentional Firearm Death,,,15769992,
+Utah,2016,2020,Firearm Suicide,1660,332,15769992,11.147660255432129
+Utah,2016,2020,Firearm Homicide,261,52,15769992,1.6546399593353271
+Vermont,2016,2020,Unintentional Firearm Death,,,3121886,
+Vermont,2016,2020,Undetermined Firearm Death,,,,
+Vermont,2016,2020,Firearm Homicide,35,7,3121886,1.2233200073242188
+Vermont,2016,2020,Firearm Suicide,329,66,3121886,9.812459945678711
+Vermont,2016,2020,All Firearm Deaths,373,75,3121886,11.315150260925293
+Vermont,2016,2020,Shootings by Police,,,3121886,
+Virginia,2016,2020,Firearm Suicide,3380,676,42525595,7.479990005493164
+Virginia,2016,2020,All Firearm Deaths,5324,1065,42525595,12.180370330810547
+Virginia,2016,2020,Shootings by Police,42,8,42525595,0.09571
+Virginia,2016,2020,Firearm Homicide,1814,363,42525595,4.387650012969971
+Virginia,2016,2020,Undetermined Firearm Death,42,8,42525595,0.08734
+Virginia,2016,2020,Unintentional Firearm Death,46,9,42525595,0.11063
+Washington,2016,2020,Shootings by Police,124,25,37537839,0.34005
+Washington,2016,2020,Firearm Suicide,3008,602,37537839,7.575329780578613
+Washington,2016,2020,All Firearm Deaths,4050,810,37537839,10.4520902633667
+Washington,2016,2020,Undetermined Firearm Death,29,6,37537839,0.09324
+Washington,2016,2020,Unintentional Firearm Death,29,6,37537839,0.07409
+Washington,2016,2020,Firearm Homicide,860,172,37537839,2.330159902572632
+West Virginia,2016,2020,Unintentional Firearm Death,41,8,9029725,0.42594
+West Virginia,2016,2020,Firearm Suicide,1178,236,9029725,12.149189949035645
+West Virginia,2016,2020,All Firearm Deaths,1648,330,9029725,17.78775978088379
+West Virginia,2016,2020,Firearm Homicide,376,75,9029725,4.619160175323486
+West Virginia,2016,2020,Undetermined Firearm Death,22,4,9029725,0.23932
+West Virginia,2016,2020,Shootings by Police,31,6,9029725,0.3348
+Wisconsin,2016,2020,Firearm Suicide,2179,436,29042848,7.059030055999756
+Wisconsin,2016,2020,Undetermined Firearm Death,27,5,29042848,0.09401
+Wisconsin,2016,2020,All Firearm Deaths,3207,641,29042848,10.895119667053223
+Wisconsin,2016,2020,Unintentional Firearm Death,35,7,29042848,0.11337
+Wisconsin,2016,2020,Firearm Homicide,906,181,29042848,3.370840072631836
+Wisconsin,2016,2020,Shootings by Police,60,12,29042848,0.21905
+Wyoming,2016,2020,All Firearm Deaths,625,125,2903640,21.169700622558594
+Wyoming,2016,2020,Firearm Homicide,65,13,2903640,2.4312899112701416
+Wyoming,2016,2020,Shootings by Police,,,2903640,
+Wyoming,2016,2020,Unintentional Firearm Death,12,2,2903640,
+Wyoming,2016,2020,Undetermined Firearm Death,,,2903640,
+Wyoming,2016,2020,Firearm Suicide,536,107,2903640,17.967269897460938
