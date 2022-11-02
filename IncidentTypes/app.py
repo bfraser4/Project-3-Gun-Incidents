@@ -1,11 +1,10 @@
-import numpy as np
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
+from sqlalchemy import create_engine
 
-from flask import Flask, request, jsonify
-# import json
-# import sqlite3
+from flask import Flask, request, jsonify, g
+import json
+import sqlite3
 
 
 #################################################
@@ -18,7 +17,7 @@ Base = automap_base()
 # reflect the tables
 Base.prepare(engine, reflect=True)
 
-# Save reference to the table
+# # Save reference to the table
 Incidents = Base.classes.keys
 
 #################################################
@@ -47,7 +46,7 @@ def data():
 
     """Return a list of all State data"""
     # Query all state data
-    results = session.query(Incidents.State).all()
+    results = session.query(Incidents.State)
 
     session.close()
 
@@ -68,18 +67,6 @@ def data():
         all_states.append(state_dict)
 
     return jsonify(all_states)
-
-
-# @app.route("/api/v1.0/passengers")
-# def passengers():
-#     # Create our session (link) from Python to the DB
-#     session = Session(engine)
-
-#     """Return a list of State data"""
-#     # Query all passengers
-#     results = session.query(Passenger.name, Passenger.age, Passenger.sex).all()
-
-#     session.close()
 
 if __name__ == '__main__':
     app.run(debug=True)
