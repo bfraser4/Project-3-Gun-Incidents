@@ -18,7 +18,7 @@ var myMap = L.map("map", {
   
   })
   
-  d3.json("gz_2010_us_040_00_500k.json").then(function (data) {
+  d3.json("gz_2010_us_040_00_500kjm.json").then(function (data) {
     // console.log(data)
   
     // Creating a GeoJSON layer with the retrieved data
