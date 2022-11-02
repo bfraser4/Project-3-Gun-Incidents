@@ -1,38 +1,30 @@
-# import numpy as np
-# from sqlalchemy.ext.automap import automap_base
-# from sqlalchemy.orm import Session
-# from sqlalchemy import create_engine, func
+import numpy as np
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, func
 
 from flask import Flask, request, jsonify
-import json
-import sqlite3
+# import json
+# import sqlite3
 
 
 #################################################
 # Database Setup
 #################################################
-# engine = create_engine("sqlite:///incidents.sqlite")
+engine = create_engine("sqlite://incidents.sqlite")
 
-# # reflect an existing database into a new model
-# Base = automap_base()
-# # reflect the tables
-# Base.prepare(engine, reflect=True)
+# reflect an existing database into a new model
+Base = automap_base()
+# reflect the tables
+Base.prepare(engine, reflect=True)
 
-# # Save reference to the table
-# Incidents = Base.classes.keys
+# Save reference to the table
+Incidents = Base.classes.keys
 
 #################################################
 # Flask Setup
 #################################################
 app = Flask(__name__)
-
-def db_connection(): 
-    conn = None
-    try: 
-        conn = sqlite3.connect('incidents.sqlite')
-    except sqlite3.error as e:
-        print(e)
-    return(conn)
 
 
 #################################################
@@ -51,11 +43,11 @@ def welcome():
 @app.route("/api/v1.0/state_data")
 def data():
     # Create our session (link) from Python to the DB
-    session = Session()
+    session = Session(engine)
 
     """Return a list of all State data"""
     # Query all state data
-    results = session.query(Incidents.State).all
+    results = session.query(Incidents.State).all()
 
     session.close()
 
@@ -88,9 +80,6 @@ def data():
 #     results = session.query(Passenger.name, Passenger.age, Passenger.sex).all()
 
 #     session.close()
-
-
-
 
 if __name__ == '__main__':
     app.run(debug=True)
