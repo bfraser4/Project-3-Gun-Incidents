@@ -16,9 +16,10 @@ engine = create_engine("sqlite:///incidents.sqlite")
 Base = automap_base()
 # reflect the tables
 Base.prepare(engine, reflect=True)
+Base.classes.keys
 
 # # Save reference to the table
-Incidents = Base.classes.keys
+Incidents = Base.classes.Incidents
 
 #################################################
 # Flask Setup
