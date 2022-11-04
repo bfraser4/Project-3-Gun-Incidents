@@ -564,21 +564,26 @@ let states = [
 
 
 
-var trace1 = {
-    x: states.map(row => row.per_capita),
-    y: states.map(row => row.incident_count),
-    mode: 'markers',
-    type: 'scatter',
-    marker: {
-      color: states.map(row => row.Gov_Political_Affiliation
-        (if row.Gov_Political_Affiliation == 'Republican')
-        color: rgb(0,0,255) else (
-            color: rgb(255,0,0)
-        )),
-      size: states.map(row => row.per_capita)
+   var party = states.map(function(TP){
+  
+    if (TP.Gov_Political_Affiliation == 'Republican'){
+      return 'red';
+    } else if (TP.Gov_Political_Affiliation == 'Democrat'){
+      return 'blue';
     }
-    
-  };
+    console.log(party)
+  })
+  var trace1 = {
+      x: states.map(row => row.per_capita),
+      y: states.map(row => row.incident_count),
+      mode: 'markers',
+      type: 'scatter',
+      marker: {
+        color: party,
+        size: states.map(row => row.per_capita)
+      }
+      
+    };
   
   var data = [trace1];
   
