@@ -1,4 +1,4 @@
-{ "jsonarray":  [
+let data = { "jsonarray":  [
     {
         "Injury_Intent":"Firearm Homicide",
         "State":"Alabama",

@@ -1,485 +1,493 @@
-let data = [{
-    {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alabama",
-        Year:2011,
-        Total_Deaths:293.0
+let data = { 
+    Alabama: [{
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alabama",
+        "Year":2011,
+        "Total_Deaths":293.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alabama",
-        Year:2012,
-        Total_Deaths:308.0
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alabama",
+        "Year":2012,
+        "Total_Deaths":308.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alabama",
-        Year:2013,
-        Total_Deaths:324.0
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alabama",
+        "Year":2013,
+        "Total_Deaths":324.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alabama",
-        Year:2014,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alabama",
+        "Year":2014,
         "Total_Deaths":298.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alabama",
-        Year:2015,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alabama",
+        "Year":2015,
         "Total_Deaths":396.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alabama",
-        Year:2016,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alabama",
+        "Year":2016,
         "Total_Deaths":466.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alabama",
-        Year:2017,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alabama",
+        "Year":2017,
         "Total_Deaths":514.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alabama",
-        Year:2018,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alabama",
+        "Year":2018,
         "Total_Deaths":472.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alabama",
-        Year:2019,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alabama",
+        "Year":2019,
         "Total_Deaths":491.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alabama",
-        Year:2020,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alabama",
+        "Year":2020,
         "Total_Deaths":570.0
-    },
-    {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alaska",
-        Year:2011,
+    }],
+
+    Alaska: [{
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alaska",
+        "Year":2011,
         "Total_Deaths":20.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alaska",
-        Year:2012,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alaska",
+        "Year":2012,
         "Total_Deaths":20.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alaska",
-        Year:2013,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alaska",
+        "Year":2013,
         "Total_Deaths":19.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alaska",
-        Year:2014,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alaska",
+        "Year":2014,
         "Total_Deaths":21.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alaska",
-        Year:2015,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alaska",
+        "Year":2015,
         "Total_Deaths":44.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alaska",
-        Year:2016,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alaska",
+        "Year":2016,
         "Total_Deaths":51.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alaska",
-        Year:2017,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alaska",
+        "Year":2017,
         "Total_Deaths":51.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alaska",
-        Year:2018,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alaska",
+        "Year":2018,
         "Total_Deaths":41.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alaska",
-        Year:2019,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alaska",
+        "Year":2019,
         "Total_Deaths":55.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Alaska",
-        Year:2020,
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Alaska",
+        "Year":2020,
         "Total_Deaths":32.0
-    },
-    {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arizona",
+    }],
+
+    Arizona: [{
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arizona",
         "Year":2011,
         "Total_Deaths":271.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arizona",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arizona",
         "Year":2012,
         "Total_Deaths":267.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arizona",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arizona",
         "Year":2013,
         "Total_Deaths":264.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arizona",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arizona",
         "Year":2014,
         "Total_Deaths":224.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arizona",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arizona",
         "Year":2015,
         "Total_Deaths":250.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arizona",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arizona",
         "Year":2016,
         "Total_Deaths":316.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arizona",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arizona",
         "Year":2017,
         "Total_Deaths":314.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arizona",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arizona",
         "Year":2018,
         "Total_Deaths":318.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arizona",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arizona",
         "Year":2019,
         "Total_Deaths":298.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arizona",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arizona",
         "Year":2020,
         "Total_Deaths":412.0
-    },
-    {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arkansas",
+    }],
+
+    Arkansas: [{
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arkansas",
         "Year":2011,
         "Total_Deaths":149.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arkansas",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arkansas",
         "Year":2012,
         "Total_Deaths":171.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arkansas",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arkansas",
         "Year":2013,
         "Total_Deaths":154.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arkansas",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arkansas",
         "Year":2014,
         "Total_Deaths":161.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arkansas",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arkansas",
         "Year":2015,
         "Total_Deaths":158.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arkansas",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arkansas",
         "Year":2016,
         "Total_Deaths":188.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arkansas",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arkansas",
         "Year":2017,
         "Total_Deaths":198.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arkansas",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arkansas",
         "Year":2018,
         "Total_Deaths":208.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arkansas",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arkansas",
         "Year":2019,
         "Total_Deaths":217.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Arkansas",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Arkansas",
         "Year":2020,
         "Total_Deaths":288.0
-    },
-    {
-        Injury_Intent:"Firearm Homicide",
-        State:"California",
+    }],
+
+    California: [{
+        "Injury_Intent":"Firearm Homicide",
+        "State":"California",
         "Year":2011,
         "Total_Deaths":1397.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"California",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"California",
         "Year":2012,
         "Total_Deaths":1474.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"California",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"California",
         "Year":2013,
         "Total_Deaths":1409.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"California",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"California",
         "Year":2014,
         "Total_Deaths":1322.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"California",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"California",
         "Year":2015,
         "Total_Deaths":1499.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"California",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"California",
         "Year":2016,
         "Total_Deaths":1541.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"California",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"California",
         "Year":2017,
         "Total_Deaths":1521.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"California",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"California",
         "Year":2018,
         "Total_Deaths":1356.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"California",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"California",
         "Year":2019,
         "Total_Deaths":1322.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"California",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"California",
         "Year":2020,
         "Total_Deaths":1831.0
-    },
-    {
-        Injury_Intent:"Firearm Homicide",
-        State:"Colorado",
+    }],
+    
+    Colorado: [{
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Colorado",
         "Year":2011,
         "Total_Deaths":113.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Colorado",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Colorado",
         "Year":2012,
         "Total_Deaths":121.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Colorado",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Colorado",
         "Year":2013,
         "Total_Deaths":114.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Colorado",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Colorado",
         "Year":2014,
         "Total_Deaths":112.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Colorado",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Colorado",
         "Year":2015,
         "Total_Deaths":149.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Colorado",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Colorado",
         "Year":2016,
         "Total_Deaths":180.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Colorado",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Colorado",
         "Year":2017,
         "Total_Deaths":179.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Colorado",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Colorado",
         "Year":2018,
         "Total_Deaths":213.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Colorado",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Colorado",
         "Year":2019,
         "Total_Deaths":185.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Colorado",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Colorado",
         "Year":2020,
         "Total_Deaths":257.0
-    },
-    {
-        Injury_Intent:"Firearm Homicide",
-        State:"Connecticut",
+    }],
+
+    Connecticut: [{
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Connecticut",
         "Year":2011,
         "Total_Deaths":96.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Connecticut",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Connecticut",
         "Year":2012,
         "Total_Deaths":114.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Connecticut",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Connecticut",
         "Year":2013,
         "Total_Deaths":69.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Connecticut",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Connecticut",
         "Year":2014,
         "Total_Deaths":58.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Connecticut",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Connecticut",
         "Year":2015,
         "Total_Deaths":83.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Connecticut",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Connecticut",
         "Year":2016,
         "Total_Deaths":58.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Connecticut",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Connecticut",
         "Year":2017,
         "Total_Deaths":77.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Connecticut",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Connecticut",
         "Year":2018,
         "Total_Deaths":56.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Connecticut",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Connecticut",
         "Year":2019,
         "Total_Deaths":69.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Connecticut",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Connecticut",
         "Year":2020,
         "Total_Deaths":106.0
-    },
-    {
-        Injury_Intent:"Firearm Homicide",
-        State:"Delaware",
+    }],
+
+    Delaware: [{
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Delaware",
         "Year":2011,
         "Total_Deaths":31.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Delaware",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Delaware",
         "Year":2012,
         "Total_Deaths":50.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Delaware",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Delaware",
         "Year":2013,
         "Total_Deaths":39.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Delaware",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Delaware",
         "Year":2014,
         "Total_Deaths":42.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Delaware",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Delaware",
         "Year":2015,
         "Total_Deaths":55.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Delaware",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Delaware",
         "Year":2016,
         "Total_Deaths":44.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Delaware",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Delaware",
         "Year":2017,
         "Total_Deaths":60.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Delaware",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Delaware",
         "Year":2018,
         "Total_Deaths":46.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Delaware",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Delaware",
         "Year":2019,
         "Total_Deaths":47.0
     },
     {
-        Injury_Intent:"Firearm Homicide",
-        State:"Delaware",
+        "Injury_Intent":"Firearm Homicide",
+        "State":"Delaware",
         "Year":2020,
         "Total_Deaths":77.0
-    },
-    {
+    }],
+
+    DistrictofColumbia [{
         "Injury_Intent":"Firearm Homicide",
         "State":"District of Columbia",
         "Year":2011,
@@ -538,8 +546,9 @@ let data = [{
         "State":"District of Columbia",
         "Year":2020,
         "Total_Deaths":158.0
-    },
-    {
+    }],
+
+    Florida: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Florida",
         "Year":2011,
@@ -598,8 +607,9 @@ let data = [{
         "State":"Florida",
         "Year":2020,
         "Total_Deaths":1276.0
-    },
-    {
+    }],
+
+    Georgia: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Georgia",
         "Year":2011,
@@ -658,8 +668,8 @@ let data = [{
         "State":"Georgia",
         "Year":2020,
         "Total_Deaths":922.0
-    },
-    {
+    }],
+    Hawaii: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Hawaii",
         "Year":2011,
@@ -718,8 +728,9 @@ let data = [{
         "State":"Hawaii",
         "Year":2020,
         "Total_Deaths":17.0
-    },
-    {
+    }],
+    
+    Idaho: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Idaho",
         "Year":2011,
@@ -778,8 +789,9 @@ let data = [{
         "State":"Idaho",
         "Year":2020,
         "Total_Deaths":35.0
-    },
-    {
+    }],
+
+    Illinois: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Illinois",
         "Year":2011,
@@ -838,8 +850,9 @@ let data = [{
         "State":"Illinois",
         "Year":2020,
         "Total_Deaths":1176.0
-    },
-    {
+    }],
+
+    Indiana: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Indiana",
         "Year":2011,
@@ -898,8 +911,9 @@ let data = [{
         "State":"Indiana",
         "Year":2020,
         "Total_Deaths":514.0
-    },
-    {
+    }],
+
+    Iowa: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Iowa",
         "Year":2011,
@@ -958,8 +972,9 @@ let data = [{
         "State":"Iowa",
         "Year":2020,
         "Total_Deaths":84.0
-    },
-    {
+    }],
+
+    Kansas[{
         "Injury_Intent":"Firearm Homicide",
         "State":"Kansas",
         "Year":2011,
@@ -1018,8 +1033,9 @@ let data = [{
         "State":"Kansas",
         "Year":2020,
         "Total_Deaths":163.0
-    },
-    {
+    }],
+
+    Kentucky: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Kentucky",
         "Year":2011,
@@ -1078,8 +1094,9 @@ let data = [{
         "State":"Kentucky",
         "Year":2020,
         "Total_Deaths":354.0
-    },
-    {
+    }],
+
+    Louisiana: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Louisiana",
         "Year":2011,
@@ -1138,8 +1155,9 @@ let data = [{
         "State":"Louisiana",
         "Year":2020,
         "Total_Deaths":753.0
-    },
-    {
+    }],
+
+    Maine: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Maine",
         "Year":2011,
@@ -1198,8 +1216,9 @@ let data = [{
         "State":"Maine",
         "Year":2020,
         "Total_Deaths":18.0
-    },
-    {
+    }],
+
+    Maryland: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Maryland",
         "Year":2011,
@@ -1258,8 +1277,9 @@ let data = [{
         "State":"Maryland",
         "Year":2020,
         "Total_Deaths":532.0
-    },
-    {
+    }],
+
+    Massachussetts: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Massachusetts",
         "Year":2011,
@@ -1318,8 +1338,9 @@ let data = [{
         "State":"Massachusetts",
         "Year":2020,
         "Total_Deaths":131.0
-    },
-    {
+    }],
+
+    Michigan: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Michigan",
         "Year":2011,
@@ -1378,8 +1399,9 @@ let data = [{
         "State":"Michigan",
         "Year":2020,
         "Total_Deaths":676.0
-    },
-    {
+    }],
+
+    Minnesota: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Minnesota",
         "Year":2011,
@@ -1438,8 +1460,9 @@ let data = [{
         "State":"Minnesota",
         "Year":2020,
         "Total_Deaths":146.0
-    },
-    {
+    }],
+
+    Mississippi: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Mississippi",
         "Year":2011,
@@ -1498,8 +1521,9 @@ let data = [{
         "State":"Mississippi",
         "Year":2020,
         "Total_Deaths":503.0
-    },
-    {
+    }],
+
+    Missouri: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Missouri",
         "Year":2011,
@@ -1558,8 +1582,9 @@ let data = [{
         "State":"Missouri",
         "Year":2020,
         "Total_Deaths":692.0
-    },
-    {
+    }],
+
+    Montana: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Montana",
         "Year":2011,
@@ -1618,8 +1643,9 @@ let data = [{
         "State":"Montana",
         "Year":2020,
         "Total_Deaths":42.0
-    },
-    {
+    }],
+
+    Nebraska: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Nebraska",
         "Year":2011,
@@ -1678,8 +1704,9 @@ let data = [{
         "State":"Nebraska",
         "Year":2020,
         "Total_Deaths":50.0
-    },
-    {
+    }],
+
+    Nevada: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Nevada",
         "Year":2011,
@@ -1738,8 +1765,9 @@ let data = [{
         "State":"Nevada",
         "Year":2020,
         "Total_Deaths":166.0
-    },
-    {
+    }],
+
+    NewHampshire: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"New Hampshire",
         "Year":2011,
@@ -1798,8 +1826,9 @@ let data = [{
         "State":"New Hampshire",
         "Year":2020,
         "Total_Deaths":10.0
-    },
-    {
+    }],
+
+    NewJersey: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"New Jersey",
         "Year":2011,
@@ -1858,8 +1887,9 @@ let data = [{
         "State":"New Jersey",
         "Year":2020,
         "Total_Deaths":256.0
-    },
-    {
+    }],
+
+    NewMexico: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"New Mexico",
         "Year":2011,
@@ -1918,8 +1948,9 @@ let data = [{
         "State":"New Mexico",
         "Year":2020,
         "Total_Deaths":163.0
-    },
-    {
+    }],
+
+    NewYork: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"New York",
         "Year":2011,
@@ -1978,8 +2009,9 @@ let data = [{
         "State":"New York",
         "Year":2020,
         "Total_Deaths":578.0
-    },
-    {
+    }],
+    
+    NorthCarolina: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"North Carolina",
         "Year":2011,
@@ -2038,8 +2070,9 @@ let data = [{
         "State":"North Carolina",
         "Year":2020,
         "Total_Deaths":766.0
-    },
-    {
+    }],
+
+    NorthDakota: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"North Dakota",
         "Year":2011,
@@ -2098,8 +2131,9 @@ let data = [{
         "State":"North Dakota",
         "Year":2020,
         "Total_Deaths":19.0
-    },
-    {
+    }],
+
+    Ohio: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Ohio",
         "Year":2011,
@@ -2158,8 +2192,9 @@ let data = [{
         "State":"Ohio",
         "Year":2020,
         "Total_Deaths":834.0
-    },
-    {
+    }],
+
+    Oklahoma: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Oklahoma",
         "Year":2011,
@@ -2218,8 +2253,9 @@ let data = [{
         "State":"Oklahoma",
         "Year":2020,
         "Total_Deaths":270.0
-    },
-    {
+    }],
+
+    Oregon: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Oregon",
         "Year":2011,
@@ -2278,8 +2314,9 @@ let data = [{
         "State":"Oregon",
         "Year":2020,
         "Total_Deaths":125.0
-    },
-    {
+    }],
+    
+    Pennsylvania: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Pennsylvania",
         "Year":2011,
@@ -2338,8 +2375,9 @@ let data = [{
         "State":"Pennsylvania",
         "Year":2020,
         "Total_Deaths":806.0
-    },
-    {
+    }],
+
+    RhodeIsland: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Rhode Island",
         "Year":2011,
@@ -2398,8 +2436,9 @@ let data = [{
         "State":"Rhode Island",
         "Year":2020,
         "Total_Deaths":22.0
-    },
-    {
+    }],
+
+    SouthCarolina: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"South Carolina",
         "Year":2011,
@@ -2458,8 +2497,9 @@ let data = [{
         "State":"South Carolina",
         "Year":2020,
         "Total_Deaths":533.0
-    },
-    {
+    }],
+
+    SouthDakota: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"South Dakota",
         "Year":2011,
@@ -2518,8 +2558,9 @@ let data = [{
         "State":"South Dakota",
         "Year":2020,
         "Total_Deaths":28.0
-    },
-    {
+    }],
+
+    Tennessee: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Tennessee",
         "Year":2011,
@@ -2578,8 +2619,9 @@ let data = [{
         "State":"Tennessee",
         "Year":2020,
         "Total_Deaths":668.0
-    },
-    {
+    }],
+
+    Texas: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Texas",
         "Year":2011,
@@ -2638,8 +2680,9 @@ let data = [{
         "State":"Texas",
         "Year":2020,
         "Total_Deaths":1785.0
-    },
-    {
+    }],
+
+    UnitedStatesTotal: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"United States",
         "Year":2011,
@@ -2698,8 +2741,9 @@ let data = [{
         "State":"United States",
         "Year":2020,
         "Total_Deaths":19995.0
-    },
-    {
+    }],
+
+    Utah: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Utah",
         "Year":2011,
@@ -2758,8 +2802,9 @@ let data = [{
         "State":"Utah",
         "Year":2020,
         "Total_Deaths":87.0
-    },
-    {
+    }],
+
+    Vermont: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Vermont",
         "Year":2011,
@@ -2818,8 +2863,9 @@ let data = [{
         "State":"Vermont",
         "Year":2020,
         "Total_Deaths":null
-    },
-    {
+    }],
+
+    Virginia: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Virginia",
         "Year":2011,
@@ -2878,8 +2924,9 @@ let data = [{
         "State":"Virginia",
         "Year":2020,
         "Total_Deaths":447.0
-    },
-    {
+    }],
+
+    Washington: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Washington",
         "Year":2011,
@@ -2938,8 +2985,9 @@ let data = [{
         "State":"Washington",
         "Year":2020,
         "Total_Deaths":235.0
-    },
-    {
+    }],
+
+    WestVirginia: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"West Virginia",
         "Year":2011,
@@ -2998,8 +3046,9 @@ let data = [{
         "State":"West Virginia",
         "Year":2020,
         "Total_Deaths":92.0
-    },
-    {
+    }],
+
+    Wisconsin: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Wisconsin",
         "Year":2011,
@@ -3058,8 +3107,9 @@ let data = [{
         "State":"Wisconsin",
         "Year":2020,
         "Total_Deaths":262.0
-    },
-    {
+    }],
+
+    Wyoming: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Wyoming",
         "Year":2011,
@@ -3118,5 +3168,5 @@ let data = [{
         "State":"Wyoming",
         "Year":2020,
         "Total_Deaths":21.0
-    }
-}]
+    }]
+}
