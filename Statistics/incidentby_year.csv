@@ -1,4 +1,4 @@
-State,Year,Injury Intent,Total Deaths,Population,"Age-adjusted Rate (per 100,000)"
+State,Year,Injury_Intent,Total_Deaths,Population,"Age-adjusted Rate (per 100,000)"
 Alabama,2011,All Firearm Deaths,785,4802740,16.021209716796875
 Alabama,2011,Firearm Suicide,452,4802740,8.97016
 Alabama,2011,Firearm Homicide (including Legal Intervention),293,4802740,6.23522
