@@ -1,5 +1,5 @@
 const CSV =
-    "incidentby_year.csv";
+    "firearm_homicides.csv";
 
 function plotFromCSV() {
     Plotly.d3.csv(CSV, function(err, rows) {
@@ -36,7 +36,7 @@ function makePlotly(x1, y1, y2) {
           name: ""
       },
       {
-          x: x1, //gives zig zag 
+          // x: x1, //gives zig zag 
           y: y2,
           type: "line",
           marker: {
