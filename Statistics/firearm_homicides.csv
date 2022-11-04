@@ -1,0 +1,521 @@
+Injury_Intent,State,Year,Total_Deaths
+Firearm Homicide,Alabama,2011,293.0
+Firearm Homicide,Alabama,2012,308.0
+Firearm Homicide,Alabama,2013,324.0
+Firearm Homicide,Alabama,2014,298.0
+Firearm Homicide,Alabama,2015,396.0
+Firearm Homicide,Alabama,2016,466.0
+Firearm Homicide,Alabama,2017,514.0
+Firearm Homicide,Alabama,2018,472.0
+Firearm Homicide,Alabama,2019,491.0
+Firearm Homicide,Alabama,2020,570.0
+Firearm Homicide,Alaska,2011,20.0
+Firearm Homicide,Alaska,2012,20.0
+Firearm Homicide,Alaska,2013,19.0
+Firearm Homicide,Alaska,2014,21.0
+Firearm Homicide,Alaska,2015,44.0
+Firearm Homicide,Alaska,2016,51.0
+Firearm Homicide,Alaska,2017,51.0
+Firearm Homicide,Alaska,2018,41.0
+Firearm Homicide,Alaska,2019,55.0
+Firearm Homicide,Alaska,2020,32.0
+Firearm Homicide,Arizona,2011,271.0
+Firearm Homicide,Arizona,2012,267.0
+Firearm Homicide,Arizona,2013,264.0
+Firearm Homicide,Arizona,2014,224.0
+Firearm Homicide,Arizona,2015,250.0
+Firearm Homicide,Arizona,2016,316.0
+Firearm Homicide,Arizona,2017,314.0
+Firearm Homicide,Arizona,2018,318.0
+Firearm Homicide,Arizona,2019,298.0
+Firearm Homicide,Arizona,2020,412.0
+Firearm Homicide,Arkansas,2011,149.0
+Firearm Homicide,Arkansas,2012,171.0
+Firearm Homicide,Arkansas,2013,154.0
+Firearm Homicide,Arkansas,2014,161.0
+Firearm Homicide,Arkansas,2015,158.0
+Firearm Homicide,Arkansas,2016,188.0
+Firearm Homicide,Arkansas,2017,198.0
+Firearm Homicide,Arkansas,2018,208.0
+Firearm Homicide,Arkansas,2019,217.0
+Firearm Homicide,Arkansas,2020,288.0
+Firearm Homicide,California,2011,1397.0
+Firearm Homicide,California,2012,1474.0
+Firearm Homicide,California,2013,1409.0
+Firearm Homicide,California,2014,1322.0
+Firearm Homicide,California,2015,1499.0
+Firearm Homicide,California,2016,1541.0
+Firearm Homicide,California,2017,1521.0
+Firearm Homicide,California,2018,1356.0
+Firearm Homicide,California,2019,1322.0
+Firearm Homicide,California,2020,1831.0
+Firearm Homicide,Colorado,2011,113.0
+Firearm Homicide,Colorado,2012,121.0
+Firearm Homicide,Colorado,2013,114.0
+Firearm Homicide,Colorado,2014,112.0
+Firearm Homicide,Colorado,2015,149.0
+Firearm Homicide,Colorado,2016,180.0
+Firearm Homicide,Colorado,2017,179.0
+Firearm Homicide,Colorado,2018,213.0
+Firearm Homicide,Colorado,2019,185.0
+Firearm Homicide,Colorado,2020,257.0
+Firearm Homicide,Connecticut,2011,96.0
+Firearm Homicide,Connecticut,2012,114.0
+Firearm Homicide,Connecticut,2013,69.0
+Firearm Homicide,Connecticut,2014,58.0
+Firearm Homicide,Connecticut,2015,83.0
+Firearm Homicide,Connecticut,2016,58.0
+Firearm Homicide,Connecticut,2017,77.0
+Firearm Homicide,Connecticut,2018,56.0
+Firearm Homicide,Connecticut,2019,69.0
+Firearm Homicide,Connecticut,2020,106.0
+Firearm Homicide,Delaware,2011,31.0
+Firearm Homicide,Delaware,2012,50.0
+Firearm Homicide,Delaware,2013,39.0
+Firearm Homicide,Delaware,2014,42.0
+Firearm Homicide,Delaware,2015,55.0
+Firearm Homicide,Delaware,2016,44.0
+Firearm Homicide,Delaware,2017,60.0
+Firearm Homicide,Delaware,2018,46.0
+Firearm Homicide,Delaware,2019,47.0
+Firearm Homicide,Delaware,2020,77.0
+Firearm Homicide,District of Columbia,2011,79.0
+Firearm Homicide,District of Columbia,2012,58.0
+Firearm Homicide,District of Columbia,2013,65.0
+Firearm Homicide,District of Columbia,2014,72.0
+Firearm Homicide,District of Columbia,2015,109.0
+Firearm Homicide,District of Columbia,2016,102.0
+Firearm Homicide,District of Columbia,2017,91.0
+Firearm Homicide,District of Columbia,2018,116.0
+Firearm Homicide,District of Columbia,2019,129.0
+Firearm Homicide,District of Columbia,2020,158.0
+Firearm Homicide,Florida,2011,840.0
+Firearm Homicide,Florida,2012,886.0
+Firearm Homicide,Florida,2013,843.0
+Firearm Homicide,Florida,2014,841.0
+Firearm Homicide,Florida,2015,896.0
+Firearm Homicide,Florida,2016,1006.0
+Firearm Homicide,Florida,2017,965.0
+Firearm Homicide,Florida,2018,1001.0
+Firearm Homicide,Florida,2019,1038.0
+Firearm Homicide,Florida,2020,1276.0
+Firearm Homicide,Georgia,2011,453.0
+Firearm Homicide,Georgia,2012,494.0
+Firearm Homicide,Georgia,2013,486.0
+Firearm Homicide,Georgia,2014,516.0
+Firearm Homicide,Georgia,2015,600.0
+Firearm Homicide,Georgia,2016,667.0
+Firearm Homicide,Georgia,2017,686.0
+Firearm Homicide,Georgia,2018,669.0
+Firearm Homicide,Georgia,2019,704.0
+Firearm Homicide,Georgia,2020,922.0
+Firearm Homicide,Hawaii,2011,
+Firearm Homicide,Hawaii,2012,
+Firearm Homicide,Hawaii,2013,
+Firearm Homicide,Hawaii,2014,
+Firearm Homicide,Hawaii,2015,
+Firearm Homicide,Hawaii,2016,26.0
+Firearm Homicide,Hawaii,2017,
+Firearm Homicide,Hawaii,2018,26.0
+Firearm Homicide,Hawaii,2019,20.0
+Firearm Homicide,Hawaii,2020,17.0
+Firearm Homicide,Idaho,2011,18.0
+Firearm Homicide,Idaho,2012,22.0
+Firearm Homicide,Idaho,2013,17.0
+Firearm Homicide,Idaho,2014,25.0
+Firearm Homicide,Idaho,2015,26.0
+Firearm Homicide,Idaho,2016,21.0
+Firearm Homicide,Idaho,2017,30.0
+Firearm Homicide,Idaho,2018,38.0
+Firearm Homicide,Idaho,2019,25.0
+Firearm Homicide,Idaho,2020,35.0
+Firearm Homicide,Illinois,2011,627.0
+Firearm Homicide,Illinois,2012,659.0
+Firearm Homicide,Illinois,2013,592.0
+Firearm Homicide,Illinois,2014,624.0
+Firearm Homicide,Illinois,2015,703.0
+Firearm Homicide,Illinois,2016,960.0
+Firearm Homicide,Illinois,2017,944.0
+Firearm Homicide,Illinois,2018,793.0
+Firearm Homicide,Illinois,2019,796.0
+Firearm Homicide,Illinois,2020,1176.0
+Firearm Homicide,Indiana,2011,212.0
+Firearm Homicide,Indiana,2012,264.0
+Firearm Homicide,Indiana,2013,313.0
+Firearm Homicide,Indiana,2014,268.0
+Firearm Homicide,Indiana,2015,306.0
+Firearm Homicide,Indiana,2016,379.0
+Firearm Homicide,Indiana,2017,384.0
+Firearm Homicide,Indiana,2018,373.0
+Firearm Homicide,Indiana,2019,361.0
+Firearm Homicide,Indiana,2020,514.0
+Firearm Homicide,Iowa,2011,32.0
+Firearm Homicide,Iowa,2012,34.0
+Firearm Homicide,Iowa,2013,26.0
+Firearm Homicide,Iowa,2014,42.0
+Firearm Homicide,Iowa,2015,50.0
+Firearm Homicide,Iowa,2016,50.0
+Firearm Homicide,Iowa,2017,66.0
+Firearm Homicide,Iowa,2018,38.0
+Firearm Homicide,Iowa,2019,53.0
+Firearm Homicide,Iowa,2020,84.0
+Firearm Homicide,Kansas,2011,87.0
+Firearm Homicide,Kansas,2012,72.0
+Firearm Homicide,Kansas,2013,82.0
+Firearm Homicide,Kansas,2014,83.0
+Firearm Homicide,Kansas,2015,100.0
+Firearm Homicide,Kansas,2016,115.0
+Firearm Homicide,Kansas,2017,140.0
+Firearm Homicide,Kansas,2018,124.0
+Firearm Homicide,Kansas,2019,105.0
+Firearm Homicide,Kansas,2020,163.0
+Firearm Homicide,Kentucky,2011,142.0
+Firearm Homicide,Kentucky,2012,168.0
+Firearm Homicide,Kentucky,2013,142.0
+Firearm Homicide,Kentucky,2014,143.0
+Firearm Homicide,Kentucky,2015,184.0
+Firearm Homicide,Kentucky,2016,249.0
+Firearm Homicide,Kentucky,2017,240.0
+Firearm Homicide,Kentucky,2018,215.0
+Firearm Homicide,Kentucky,2019,208.0
+Firearm Homicide,Kentucky,2020,354.0
+Firearm Homicide,Louisiana,2011,433.0
+Firearm Homicide,Louisiana,2012,431.0
+Firearm Homicide,Louisiana,2013,452.0
+Firearm Homicide,Louisiana,2014,426.0
+Firearm Homicide,Louisiana,2015,460.0
+Firearm Homicide,Louisiana,2016,528.0
+Firearm Homicide,Louisiana,2017,545.0
+Firearm Homicide,Louisiana,2018,501.0
+Firearm Homicide,Louisiana,2019,549.0
+Firearm Homicide,Louisiana,2020,753.0
+Firearm Homicide,Maine,2011,21.0
+Firearm Homicide,Maine,2012,17.0
+Firearm Homicide,Maine,2013,17.0
+Firearm Homicide,Maine,2014,16.0
+Firearm Homicide,Maine,2015,16.0
+Firearm Homicide,Maine,2016,
+Firearm Homicide,Maine,2017,17.0
+Firearm Homicide,Maine,2018,11.0
+Firearm Homicide,Maine,2019,16.0
+Firearm Homicide,Maine,2020,18.0
+Firearm Homicide,Maryland,2011,296.0
+Firearm Homicide,Maryland,2012,312.0
+Firearm Homicide,Maryland,2013,313.0
+Firearm Homicide,Maryland,2014,266.0
+Firearm Homicide,Maryland,2015,457.0
+Firearm Homicide,Maryland,2016,453.0
+Firearm Homicide,Maryland,2017,463.0
+Firearm Homicide,Maryland,2018,436.0
+Firearm Homicide,Maryland,2019,485.0
+Firearm Homicide,Maryland,2020,532.0
+Firearm Homicide,Massachusetts,2011,135.0
+Firearm Homicide,Massachusetts,2012,80.0
+Firearm Homicide,Massachusetts,2013,97.0
+Firearm Homicide,Massachusetts,2014,93.0
+Firearm Homicide,Massachusetts,2015,94.0
+Firearm Homicide,Massachusetts,2016,100.0
+Firearm Homicide,Massachusetts,2017,107.0
+Firearm Homicide,Massachusetts,2018,106.0
+Firearm Homicide,Massachusetts,2019,100.0
+Firearm Homicide,Massachusetts,2020,131.0
+Firearm Homicide,Michigan,2011,521.0
+Firearm Homicide,Michigan,2012,587.0
+Firearm Homicide,Michigan,2013,500.0
+Firearm Homicide,Michigan,2014,417.0
+Firearm Homicide,Michigan,2015,446.0
+Firearm Homicide,Michigan,2016,487.0
+Firearm Homicide,Michigan,2017,443.0
+Firearm Homicide,Michigan,2018,488.0
+Firearm Homicide,Michigan,2019,465.0
+Firearm Homicide,Michigan,2020,676.0
+Firearm Homicide,Minnesota,2011,66.0
+Firearm Homicide,Minnesota,2012,66.0
+Firearm Homicide,Minnesota,2013,80.0
+Firearm Homicide,Minnesota,2014,61.0
+Firearm Homicide,Minnesota,2015,99.0
+Firearm Homicide,Minnesota,2016,93.0
+Firearm Homicide,Minnesota,2017,87.0
+Firearm Homicide,Minnesota,2018,77.0
+Firearm Homicide,Minnesota,2019,113.0
+Firearm Homicide,Minnesota,2020,146.0
+Firearm Homicide,Mississippi,2011,224.0
+Firearm Homicide,Mississippi,2012,221.0
+Firearm Homicide,Mississippi,2013,217.0
+Firearm Homicide,Mississippi,2014,266.0
+Firearm Homicide,Mississippi,2015,268.0
+Firearm Homicide,Mississippi,2016,288.0
+Firearm Homicide,Mississippi,2017,301.0
+Firearm Homicide,Mississippi,2018,327.0
+Firearm Homicide,Mississippi,2019,371.0
+Firearm Homicide,Mississippi,2020,503.0
+Firearm Homicide,Missouri,2011,308.0
+Firearm Homicide,Missouri,2012,314.0
+Firearm Homicide,Missouri,2013,298.0
+Firearm Homicide,Missouri,2014,337.0
+Firearm Homicide,Missouri,2015,466.0
+Firearm Homicide,Missouri,2016,473.0
+Firearm Homicide,Missouri,2017,570.0
+Firearm Homicide,Missouri,2018,566.0
+Firearm Homicide,Missouri,2019,543.0
+Firearm Homicide,Missouri,2020,692.0
+Firearm Homicide,Montana,2011,11.0
+Firearm Homicide,Montana,2012,13.0
+Firearm Homicide,Montana,2013,21.0
+Firearm Homicide,Montana,2014,19.0
+Firearm Homicide,Montana,2015,24.0
+Firearm Homicide,Montana,2016,22.0
+Firearm Homicide,Montana,2017,27.0
+Firearm Homicide,Montana,2018,24.0
+Firearm Homicide,Montana,2019,30.0
+Firearm Homicide,Montana,2020,42.0
+Firearm Homicide,Nebraska,2011,41.0
+Firearm Homicide,Nebraska,2012,46.0
+Firearm Homicide,Nebraska,2013,52.0
+Firearm Homicide,Nebraska,2014,40.0
+Firearm Homicide,Nebraska,2015,51.0
+Firearm Homicide,Nebraska,2016,52.0
+Firearm Homicide,Nebraska,2017,29.0
+Firearm Homicide,Nebraska,2018,26.0
+Firearm Homicide,Nebraska,2019,44.0
+Firearm Homicide,Nebraska,2020,50.0
+Firearm Homicide,Nevada,2011,96.0
+Firearm Homicide,Nevada,2012,83.0
+Firearm Homicide,Nevada,2013,92.0
+Firearm Homicide,Nevada,2014,114.0
+Firearm Homicide,Nevada,2015,140.0
+Firearm Homicide,Nevada,2016,158.0
+Firearm Homicide,Nevada,2017,168.0
+Firearm Homicide,Nevada,2018,175.0
+Firearm Homicide,Nevada,2019,129.0
+Firearm Homicide,Nevada,2020,166.0
+Firearm Homicide,New Hampshire,2011,15.0
+Firearm Homicide,New Hampshire,2012,14.0
+Firearm Homicide,New Hampshire,2013,10.0
+Firearm Homicide,New Hampshire,2014,10.0
+Firearm Homicide,New Hampshire,2015,14.0
+Firearm Homicide,New Hampshire,2016,
+Firearm Homicide,New Hampshire,2017,11.0
+Firearm Homicide,New Hampshire,2018,18.0
+Firearm Homicide,New Hampshire,2019,22.0
+Firearm Homicide,New Hampshire,2020,10.0
+Firearm Homicide,New Jersey,2011,297.0
+Firearm Homicide,New Jersey,2012,282.0
+Firearm Homicide,New Jersey,2013,304.0
+Firearm Homicide,New Jersey,2014,271.0
+Firearm Homicide,New Jersey,2015,284.0
+Firearm Homicide,New Jersey,2016,300.0
+Firearm Homicide,New Jersey,2017,269.0
+Firearm Homicide,New Jersey,2018,223.0
+Firearm Homicide,New Jersey,2019,194.0
+Firearm Homicide,New Jersey,2020,256.0
+Firearm Homicide,New Mexico,2011,81.0
+Firearm Homicide,New Mexico,2012,88.0
+Firearm Homicide,New Mexico,2013,96.0
+Firearm Homicide,New Mexico,2014,90.0
+Firearm Homicide,New Mexico,2015,109.0
+Firearm Homicide,New Mexico,2016,129.0
+Firearm Homicide,New Mexico,2017,119.0
+Firearm Homicide,New Mexico,2018,152.0
+Firearm Homicide,New Mexico,2019,173.0
+Firearm Homicide,New Mexico,2020,163.0
+Firearm Homicide,New York,2011,480.0
+Firearm Homicide,New York,2012,455.0
+Firearm Homicide,New York,2013,393.0
+Firearm Homicide,New York,2014,385.0
+Firearm Homicide,New York,2015,418.0
+Firearm Homicide,New York,2016,403.0
+Firearm Homicide,New York,2017,327.0
+Firearm Homicide,New York,2018,364.0
+Firearm Homicide,New York,2019,339.0
+Firearm Homicide,New York,2020,578.0
+Firearm Homicide,North Carolina,2011,382.0
+Firearm Homicide,North Carolina,2012,429.0
+Firearm Homicide,North Carolina,2013,419.0
+Firearm Homicide,North Carolina,2014,401.0
+Firearm Homicide,North Carolina,2015,455.0
+Firearm Homicide,North Carolina,2016,582.0
+Firearm Homicide,North Carolina,2017,539.0
+Firearm Homicide,North Carolina,2018,506.0
+Firearm Homicide,North Carolina,2019,565.0
+Firearm Homicide,North Carolina,2020,766.0
+Firearm Homicide,North Dakota,2011,
+Firearm Homicide,North Dakota,2012,
+Firearm Homicide,North Dakota,2013,
+Firearm Homicide,North Dakota,2014,
+Firearm Homicide,North Dakota,2015,11.0
+Firearm Homicide,North Dakota,2016,10.0
+Firearm Homicide,North Dakota,2017,
+Firearm Homicide,North Dakota,2018,13.0
+Firearm Homicide,North Dakota,2019,10.0
+Firearm Homicide,North Dakota,2020,19.0
+Firearm Homicide,Ohio,2011,473.0
+Firearm Homicide,Ohio,2012,453.0
+Firearm Homicide,Ohio,2013,460.0
+Firearm Homicide,Ohio,2014,439.0
+Firearm Homicide,Ohio,2015,502.0
+Firearm Homicide,Ohio,2016,572.0
+Firearm Homicide,Ohio,2017,642.0
+Firearm Homicide,Ohio,2018,563.0
+Firearm Homicide,Ohio,2019,575.0
+Firearm Homicide,Ohio,2020,834.0
+Firearm Homicide,Oklahoma,2011,168.0
+Firearm Homicide,Oklahoma,2012,191.0
+Firearm Homicide,Oklahoma,2013,179.0
+Firearm Homicide,Oklahoma,2014,157.0
+Firearm Homicide,Oklahoma,2015,222.0
+Firearm Homicide,Oklahoma,2016,238.0
+Firearm Homicide,Oklahoma,2017,229.0
+Firearm Homicide,Oklahoma,2018,185.0
+Firearm Homicide,Oklahoma,2019,246.0
+Firearm Homicide,Oklahoma,2020,270.0
+Firearm Homicide,Oregon,2011,68.0
+Firearm Homicide,Oregon,2012,65.0
+Firearm Homicide,Oregon,2013,61.0
+Firearm Homicide,Oregon,2014,69.0
+Firearm Homicide,Oregon,2015,105.0
+Firearm Homicide,Oregon,2016,89.0
+Firearm Homicide,Oregon,2017,84.0
+Firearm Homicide,Oregon,2018,82.0
+Firearm Homicide,Oregon,2019,90.0
+Firearm Homicide,Oregon,2020,125.0
+Firearm Homicide,Pennsylvania,2011,524.0
+Firearm Homicide,Pennsylvania,2012,565.0
+Firearm Homicide,Pennsylvania,2013,503.0
+Firearm Homicide,Pennsylvania,2014,477.0
+Firearm Homicide,Pennsylvania,2015,532.0
+Firearm Homicide,Pennsylvania,2016,553.0
+Firearm Homicide,Pennsylvania,2017,623.0
+Firearm Homicide,Pennsylvania,2018,598.0
+Firearm Homicide,Pennsylvania,2019,556.0
+Firearm Homicide,Pennsylvania,2020,806.0
+Firearm Homicide,Rhode Island,2011,12.0
+Firearm Homicide,Rhode Island,2012,16.0
+Firearm Homicide,Rhode Island,2013,19.0
+Firearm Homicide,Rhode Island,2014,13.0
+Firearm Homicide,Rhode Island,2015,10.0
+Firearm Homicide,Rhode Island,2016,14.0
+Firearm Homicide,Rhode Island,2017,10.0
+Firearm Homicide,Rhode Island,2018,13.0
+Firearm Homicide,Rhode Island,2019,12.0
+Firearm Homicide,Rhode Island,2020,22.0
+Firearm Homicide,South Carolina,2011,260.0
+Firearm Homicide,South Carolina,2012,279.0
+Firearm Homicide,South Carolina,2013,254.0
+Firearm Homicide,South Carolina,2014,272.0
+Firearm Homicide,South Carolina,2015,366.0
+Firearm Homicide,South Carolina,2016,339.0
+Firearm Homicide,South Carolina,2017,342.0
+Firearm Homicide,South Carolina,2018,377.0
+Firearm Homicide,South Carolina,2019,459.0
+Firearm Homicide,South Carolina,2020,533.0
+Firearm Homicide,South Dakota,2011,10.0
+Firearm Homicide,South Dakota,2012,
+Firearm Homicide,South Dakota,2013,
+Firearm Homicide,South Dakota,2014,11.0
+Firearm Homicide,South Dakota,2015,17.0
+Firearm Homicide,South Dakota,2016,19.0
+Firearm Homicide,South Dakota,2017,15.0
+Firearm Homicide,South Dakota,2018,19.0
+Firearm Homicide,South Dakota,2019,13.0
+Firearm Homicide,South Dakota,2020,28.0
+Firearm Homicide,Tennessee,2011,316.0
+Firearm Homicide,Tennessee,2012,330.0
+Firearm Homicide,Tennessee,2013,316.0
+Firearm Homicide,Tennessee,2014,318.0
+Firearm Homicide,Tennessee,2015,372.0
+Firearm Homicide,Tennessee,2016,442.0
+Firearm Homicide,Tennessee,2017,484.0
+Firearm Homicide,Tennessee,2018,513.0
+Firearm Homicide,Tennessee,2019,487.0
+Firearm Homicide,Tennessee,2020,668.0
+Firearm Homicide,Texas,2011,837.0
+Firearm Homicide,Texas,2012,922.0
+Firearm Homicide,Texas,2013,940.0
+Firearm Homicide,Texas,2014,989.0
+Firearm Homicide,Texas,2015,1134.0
+Firearm Homicide,Texas,2016,1257.0
+Firearm Homicide,Texas,2017,1291.0
+Firearm Homicide,Texas,2018,1184.0
+Firearm Homicide,Texas,2019,1351.0
+Firearm Homicide,Texas,2020,1785.0
+Firearm Homicide,United States,2011,11522.0
+Firearm Homicide,United States,2012,12093.0
+Firearm Homicide,United States,2013,11675.0
+Firearm Homicide,United States,2014,11472.0
+Firearm Homicide,United States,2015,13463.0
+Firearm Homicide,United States,2016,14925.0
+Firearm Homicide,United States,2017,15095.0
+Firearm Homicide,United States,2018,14497.0
+Firearm Homicide,United States,2019,14934.0
+Firearm Homicide,United States,2020,19995.0
+Firearm Homicide,Utah,2011,37.0
+Firearm Homicide,Utah,2012,33.0
+Firearm Homicide,Utah,2013,38.0
+Firearm Homicide,Utah,2014,50.0
+Firearm Homicide,Utah,2015,49.0
+Firearm Homicide,Utah,2016,55.0
+Firearm Homicide,Utah,2017,59.0
+Firearm Homicide,Utah,2018,52.0
+Firearm Homicide,Utah,2019,57.0
+Firearm Homicide,Utah,2020,87.0
+Firearm Homicide,Vermont,2011,
+Firearm Homicide,Vermont,2012,
+Firearm Homicide,Vermont,2013,
+Firearm Homicide,Vermont,2014,
+Firearm Homicide,Vermont,2015,11.0
+Firearm Homicide,Vermont,2016,
+Firearm Homicide,Vermont,2017,
+Firearm Homicide,Vermont,2018,12.0
+Firearm Homicide,Vermont,2019,
+Firearm Homicide,Vermont,2020,
+Firearm Homicide,Virginia,2011,246.0
+Firearm Homicide,Virginia,2012,236.0
+Firearm Homicide,Virginia,2013,242.0
+Firearm Homicide,Virginia,2014,247.0
+Firearm Homicide,Virginia,2015,288.0
+Firearm Homicide,Virginia,2016,364.0
+Firearm Homicide,Virginia,2017,358.0
+Firearm Homicide,Virginia,2018,339.0
+Firearm Homicide,Virginia,2019,348.0
+Firearm Homicide,Virginia,2020,447.0
+Firearm Homicide,Washington,2011,114.0
+Firearm Homicide,Washington,2012,143.0
+Firearm Homicide,Washington,2013,135.0
+Firearm Homicide,Washington,2014,142.0
+Firearm Homicide,Washington,2015,175.0
+Firearm Homicide,Washington,2016,165.0
+Firearm Homicide,Washington,2017,196.0
+Firearm Homicide,Washington,2018,195.0
+Firearm Homicide,Washington,2019,193.0
+Firearm Homicide,Washington,2020,235.0
+Firearm Homicide,West Virginia,2011,67.0
+Firearm Homicide,West Virginia,2012,75.0
+Firearm Homicide,West Virginia,2013,50.0
+Firearm Homicide,West Virginia,2014,65.0
+Firearm Homicide,West Virginia,2015,58.0
+Firearm Homicide,West Virginia,2016,89.0
+Firearm Homicide,West Virginia,2017,74.0
+Firearm Homicide,West Virginia,2018,70.0
+Firearm Homicide,West Virginia,2019,82.0
+Firearm Homicide,West Virginia,2020,92.0
+Firearm Homicide,Wisconsin,2011,89.0
+Firearm Homicide,Wisconsin,2012,132.0
+Firearm Homicide,Wisconsin,2013,122.0
+Firearm Homicide,Wisconsin,2014,127.0
+Firearm Homicide,Wisconsin,2015,180.0
+Firearm Homicide,Wisconsin,2016,196.0
+Firearm Homicide,Wisconsin,2017,175.0
+Firearm Homicide,Wisconsin,2018,165.0
+Firearm Homicide,Wisconsin,2019,168.0
+Firearm Homicide,Wisconsin,2020,262.0
+Firearm Homicide,Wyoming,2011,12.0
+Firearm Homicide,Wyoming,2012,
+Firearm Homicide,Wyoming,2013,
+Firearm Homicide,Wyoming,2014,11.0
+Firearm Homicide,Wyoming,2015,14.0
+Firearm Homicide,Wyoming,2016,11.0
+Firearm Homicide,Wyoming,2017,
+Firearm Homicide,Wyoming,2018,14.0
+Firearm Homicide,Wyoming,2019,18.0
+Firearm Homicide,Wyoming,2020,21.0
