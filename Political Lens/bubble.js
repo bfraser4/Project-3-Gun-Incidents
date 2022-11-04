@@ -182,7 +182,7 @@ let states = [
       "population": 2934582,
       "per_capita": "35.20092469728227",
       "Unnamed: 0": 16,
-      "Gov_Political_Affiliation": "Democrat",
+      "Gov_Political_Affiliation": "Republican",
       "Lat": 39.011902,
       "Long": -98.484246
     },
@@ -204,7 +204,7 @@ let states = [
       "population": 4624047,
       "per_capita": "81.35730454296854",
       "Unnamed: 0": 18,
-      "Gov_Political_Affiliation": "Democrat",
+      "Gov_Political_Affiliation": "Republican",
       "Lat": 31.244823,
       "Long": -92.145024
     },
@@ -237,7 +237,7 @@ let states = [
       "population": 6984723,
       "per_capita": "41.261478801664715",
       "Unnamed: 0": 21,
-      "Gov_Political_Affiliation": "Republican",
+      "Gov_Political_Affiliation": "Democrat",
       "Lat": 42.407211,
       "Long": -71.382437
     },
@@ -576,11 +576,12 @@ let states = [
   var trace1 = {
       x: states.map(row => row.per_capita),
       y: states.map(row => row.incident_count),
+      text: states.map(row=> row.state),
       mode: 'markers',
       type: 'scatter',
       marker: {
         color: party,
-        size: states.map(row => row.per_capita)
+        size: states.map(row => row.per_capita/2)
       }
       
     };
@@ -591,7 +592,30 @@ let states = [
     title: 'Per Capita Gun Incidents',
     showlegend: false,
     height: 600,
-    width: 1000
+    width: 1000,
+
+    xaxis: {
+      title: {
+        text: 'Incidents Per Capita',
+        font: {
+          family: 'Courier New, monospace',
+          size: 18,
+          color: '#7f7f7f'
+        }
+      },
+    },
+
+    yaxis: {
+      title: {
+        text: 'Total Incidents',
+        font: {
+          family: 'Courier New, monospace',
+          size: 18,
+          color: '#7f7f7f'
+        }
+      },
+    },
+
   };
   
   Plotly.newPlot('myDiv', data, layout);
