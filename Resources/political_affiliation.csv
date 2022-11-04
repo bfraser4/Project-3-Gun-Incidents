@@ -7,7 +7,7 @@ California,Democrat,Democrat,Democrat,Appointed,Democrat,,36.778261,-119.417932
 Colorado,Democrat,Democrat,Democrat,Democrat,Appointed,,39.550051,-105.782067
 Connecticut,Democrat,Democrat,Democrat,Democrat,Appointed,,41.603221,-73.087749
 Delaware,Democrat,Democrat,Democrat,Democrat,Democrat,,38.910832,-75.52767
-District of Columbia,Democrat,Democrat,N/A,Democrat,Appointed,1,38.905985,-77.033418
+District of Columbia,Democrat,Democrat,Democrat,Democrat,Appointed,1,38.905985,-77.033418
 Florida,Republican,Republican,Republican,Republican,Appointed,,27.664827,-81.515754
 Georgia,Republican,Republican,Republican,Republican,Republican,,32.157435,-82.907123
 Hawaii,Democrat,Democrat,Democrat,Appointed,Appointed,,19.898682,-155.665857
@@ -15,18 +15,18 @@ Idaho,Republican,Republican,Republican,Republican,Appointed,,44.068202,-114.7420
 Illinois,Democrat,Democrat,Democrat,Democrat,Appointed,,40.633125,-89.398528
 Indiana,Republican,Republican,Republican,Republican,Appointed,,40.551217,-85.602364
 Iowa,Republican,Republican,Republican,Democrat,Appointed,,41.878003,-93.097702
-Kansas,Democrat,Republican,Republican,Republican,Republican,,39.011902,-98.484246
+Kansas,Republican,Republican,Republican,Republican,Republican,,39.011902,-98.484246
 Kentucky,Democrat,Republican,Republican,Republican,Appointed,,37.839333,-84.270018
-Louisiana,Democrat,Republican,Republican,Republican,Republican,,31.244823,-92.145024
+Louisiana,Republican,Republican,Republican,Republican,Republican,,31.244823,-92.145024
 Maine,Democrat,Democrat,Democrat,Appointed,Appointed,,45.253783,-69.445469
 Maryland,Republican,Democrat,Democrat,Democrat,Appointed,,39.045755,-76.641271
-Massachusetts,Republican,Democrat,Democrat,Democrat,Appointed,,42.407211,-71.382437
+Massachusetts,Democrat,Democrat,Democrat,Democrat,Appointed,,42.407211,-71.382437
 Michigan,Democrat,Republican,Republican,Democrat,Appointed,,44.314844,-85.602364
 Minnesota,Democrat,Republican,Democrat,Democrat,Appointed,,46.729553,-94.6859
 Mississippi,Republican,Republican,Republican,Republican,Republican,,32.354668,-89.398528
 Missouri,Republican,Republican,Republican,Republican,Appointed,,37.964253,-91.831833
 Montana,Republican,Republican,Republican,Republican,Republican,,46.879682,-110.362566
-Nebraska,Republican,N/A,N/A,Republican,Appointed,2,41.492537,-99.901813
+Nebraska,Republican,Republican,Republican,Republican,Appointed,2,41.492537,-99.901813
 Nevada,Democrat,Democrat,Democrat,Democrat,Appointed,,38.80261,-116.419389
 New Hampshire,Republican,Republican,Republican,Appointed,Appointed,,43.193852,-71.572395
 New Jersey,Democrat,Democrat,Democrat,Appointed,Appointed,,40.058324,-74.405661
