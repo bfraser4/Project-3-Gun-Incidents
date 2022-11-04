@@ -1,4 +1,4 @@
-let data = [
+let data = [{
     {
         Injury_Intent:"Firearm Homicide",
         State:"Alabama",
@@ -360,122 +360,122 @@ let data = [
         "Total_Deaths":257.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Connecticut",
+        Injury_Intent:"Firearm Homicide",
+        State:"Connecticut",
         "Year":2011,
         "Total_Deaths":96.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Connecticut",
+        Injury_Intent:"Firearm Homicide",
+        State:"Connecticut",
         "Year":2012,
         "Total_Deaths":114.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Connecticut",
+        Injury_Intent:"Firearm Homicide",
+        State:"Connecticut",
         "Year":2013,
         "Total_Deaths":69.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Connecticut",
+        Injury_Intent:"Firearm Homicide",
+        State:"Connecticut",
         "Year":2014,
         "Total_Deaths":58.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Connecticut",
+        Injury_Intent:"Firearm Homicide",
+        State:"Connecticut",
         "Year":2015,
         "Total_Deaths":83.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Connecticut",
+        Injury_Intent:"Firearm Homicide",
+        State:"Connecticut",
         "Year":2016,
         "Total_Deaths":58.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Connecticut",
+        Injury_Intent:"Firearm Homicide",
+        State:"Connecticut",
         "Year":2017,
         "Total_Deaths":77.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Connecticut",
+        Injury_Intent:"Firearm Homicide",
+        State:"Connecticut",
         "Year":2018,
         "Total_Deaths":56.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Connecticut",
+        Injury_Intent:"Firearm Homicide",
+        State:"Connecticut",
         "Year":2019,
         "Total_Deaths":69.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Connecticut",
+        Injury_Intent:"Firearm Homicide",
+        State:"Connecticut",
         "Year":2020,
         "Total_Deaths":106.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Delaware",
+        Injury_Intent:"Firearm Homicide",
+        State:"Delaware",
         "Year":2011,
         "Total_Deaths":31.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Delaware",
+        Injury_Intent:"Firearm Homicide",
+        State:"Delaware",
         "Year":2012,
         "Total_Deaths":50.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Delaware",
+        Injury_Intent:"Firearm Homicide",
+        State:"Delaware",
         "Year":2013,
         "Total_Deaths":39.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Delaware",
+        Injury_Intent:"Firearm Homicide",
+        State:"Delaware",
         "Year":2014,
         "Total_Deaths":42.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Delaware",
+        Injury_Intent:"Firearm Homicide",
+        State:"Delaware",
         "Year":2015,
         "Total_Deaths":55.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Delaware",
+        Injury_Intent:"Firearm Homicide",
+        State:"Delaware",
         "Year":2016,
         "Total_Deaths":44.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Delaware",
+        Injury_Intent:"Firearm Homicide",
+        State:"Delaware",
         "Year":2017,
         "Total_Deaths":60.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Delaware",
+        Injury_Intent:"Firearm Homicide",
+        State:"Delaware",
         "Year":2018,
         "Total_Deaths":46.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Delaware",
+        Injury_Intent:"Firearm Homicide",
+        State:"Delaware",
         "Year":2019,
         "Total_Deaths":47.0
     },
     {
-        "Injury_Intent":"Firearm Homicide",
-        "State":"Delaware",
+        Injury_Intent:"Firearm Homicide",
+        State:"Delaware",
         "Year":2020,
         "Total_Deaths":77.0
     },
@@ -3119,4 +3119,4 @@ let data = [
         "Year":2020,
         "Total_Deaths":21.0
     }
-]
+}]
