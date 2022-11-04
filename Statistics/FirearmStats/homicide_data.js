@@ -487,7 +487,7 @@ let data = {
         "Total_Deaths":77.0
     }],
 
-    DistrictofColumbia [{
+    DistrictofColumbia: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"District of Columbia",
         "Year":2011,
@@ -974,7 +974,7 @@ let data = {
         "Total_Deaths":84.0
     }],
 
-    Kansas[{
+    Kansas: [{
         "Injury_Intent":"Firearm Homicide",
         "State":"Kansas",
         "Year":2011,
