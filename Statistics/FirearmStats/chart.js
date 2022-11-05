@@ -10,21 +10,21 @@ function plotFromCSV() {
 function processData(allRows) {
   let x1 = []; //year; on x axis KEEP; x1 in trace 1 keeps year on xaxis
   let y1 = []; //injury intent
-  let y2 = []; //total deaths 
+  // let y2 = []; //total deaths 
   let row;
 
   let i = 0; 
   while (i < allRows.length) {
     row = allRows[i];
     x1.push(row["Year"]);
-    y1.push(row["Injury_Intent"]);
-    y2.push(row["Total_Deaths"]);
+    y1.push(row["Total_Deaths"]);
+    // y2.push(row["Total_Deaths"]);
     i += 1;
   }
-    makePlotly(x1, y1, y2);
+    makePlotly(x1, y1);
 }
 
-function makePlotly(x1, y1, y2) {
+function makePlotly(x1, y1) {
   let traces = [
       {
           x: x1,
@@ -34,16 +34,16 @@ function makePlotly(x1, y1, y2) {
             color: 'blue'
           },
           name: ""
-      },
-      {
-          // x: x1, //gives zig zag 
-          y: y2,
-          type: "line",
-          marker: {
-              color: 'rgb(255,0,0)'
-            },
-          name: ""
       }
+      // {
+      //     // x: x1, //gives zig zag 
+      //     y: y2,
+      //     type: "line",
+      //     marker: {
+      //         color: 'rgb(255,0,0)'
+      //       },
+      //     name: ""
+      // }
       
   ];
 
