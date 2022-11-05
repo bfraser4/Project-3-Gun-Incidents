@@ -1,5 +1,5 @@
 const CSV =
-    "firearm_homicides.csv";
+    "Statistics/FirearmStats/firearm_suicides.csv";
 
 function plotFromCSV() {
     Plotly.d3.csv(CSV, function(err, rows) {
