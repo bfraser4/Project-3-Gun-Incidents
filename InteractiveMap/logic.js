@@ -1,16 +1,16 @@
 // Perform a GET request to the query URL/
-d3.json("state_data.json").then(function (data) {
+d3.json("state_data.geojson").then(function (data) {
   console.log(data);
-  createFeatures(data.state);
+  createFeatures(data.features);
 });
 
 function createFeatures(gunData) {
   
 
   function onEachFeature(feature, layer) {
-    layer.bindPopup(`<h3>${state}: 2014-2017 </h3>${"Firearm incidents per capita: " + 
-      per_capita.toFixed(2)}</p><p>${"Total number of incidents: " + 
-      incident_count}</p><p>${"Population: " + population.toLocaleString('en-US')}</p>`);
+    layer.bindPopup(`<h3>${feature.properties.state}: 2014-2017 </h3>${"Firearm incidents per capita: " + 
+      feature.properties.per_capita.toFixed(2)}</p><p>${"Total number of incidents: " + 
+      feature.properties.incident_count}</p><p>${"Population: " + feature.properties.population.toLocaleString('en-US')}</p>`);
   }
 
   
