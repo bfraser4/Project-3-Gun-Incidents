@@ -7,6 +7,20 @@
     <title>Statistics</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="Graphic3.css" media="screen">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<div style="display: flex; justify-content: center"></div>
+
+
+
+<style type="text/css">
+
+</style>
+
+
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.20.1, nicepage.com">
@@ -63,13 +77,115 @@
           <div class="u-layout-row">
             <div class="u-align-left u-container-style u-grey-5 u-layout-cell u-left-cell u-size-20 u-layout-cell-1" src="">
               <div class="u-container-layout u-valign-middle u-container-layout-1">
-                <h2 class="u-text u-text-palette-1-base u-text-1">We’re here to help you to finding a best way</h2>
-                <p class="u-text u-text-2">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
-              </div>
+
+                    <!-- //Inserting 1st Bar Graph -->
+                    <table align="center">
+                      <tr valign="top">
+                        <td style="width: 50%;">
+                          <div id="map_div" style="width: 400px; height: 300;"></div>
+                        </td>
+                        <td style="width: 50%;">
+                          <div id="table_div"></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colSpan=2>
+                          <div id="plot" style="align: center; width: 700px; height: 300px;"></div>
+                        </td>
+                      </tr>
+                    </table>
+                    <div id='plot'></div>
+                    <script>
+                          var xValue = ['Hawii', 'Vermont', 'Wyoming', 'South Dakota', 'North Dakota', 'Montana', 'Idaho', 'Rhode Island', 'Maine', 'New Hampshire'];
+  
+                          var yValue = [289, 472, 494, 544, 573, 638, 661, 895, 907, 964];
+  
+                          var trace1 = {
+                            x: xValue,
+                            y: yValue,
+                            type: 'bar',
+                            text: yValue.map(String),
+                            textposition: 'auto',
+                            hoverinfo: 'none',
+                            marker: {
+                              color: 'rgb(158,202,225)',
+                              opacity: 0.6,
+                              line: {
+                                color: 'rgb(8,48,107)',
+                                width: 1.5,
+                                line: {
+                                  color: 'rgb(8,48,107)',
+                                  width: 1.5
+                                }
+                              }
+                            }
+                          };
+  
+                          var data = [trace1];
+  
+                          var layout = {
+                            title: 'Top 10 States with the lowest Cases of Gun Violence (2013-2018)',
+                            barmode: 'stack'
+                          };
+  
+                          Plotly.newPlot('plot', data, layout);
+  
+  
+                    </script>
+
+
+          
+              <!-- <script src="IncidentTypes/incidents.js"></script> -->
+              <!-- Second bar graph -->
+              <table align="center">
+                <tr valign="top">
+                  <td style="width: 50%;">
+                    <div id="map_div" style="width: 00px; height: 300;"></div>
+                  </td>
+                  <td style="width: 50%;">
+                    <div id="table_div"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colSpan=2>
+                    <div id="graph" style="align: center; width: 700px; height: 300px;"></div>
+                  </td>
+                </tr>
+              </table>
             </div>
-            <div class="u-container-style u-image u-layout-cell u-right-cell u-size-40 u-image-1" src="" data-image-width="1080" data-image-height="1080">
-              <script src="IncidentTypes/incidents.js"></script>
-              <div class="u-container-layout u-valign-middle u-container-layout-2"></div>
+          </div>
+          <div class="u-container-style u-image u-layout-cell u-right-cell u-size-40 u-image-1" src="" data-image-width="1080" data-image-height="1080">
+            <div class="u-container-layout u-valign-middle u-container-layout-2"></div>
+            
+              <div id="graph"></div>
+              <script>
+              var trace1 = {
+                x: ['California', 'Texas', 'Florida', 'Illinois', 'Ohio', 'Georgia', 'Pennsylvania', 'North Carolina', 'Louisiana', 'Missouri'],
+                x2: ['Democrat', 'Republican', 'Republican', 'Democrat', 'Republican', 'Republican', 'Democrat', 'Democrat', 'Democrat', 'Republican'],
+                y: [5562, 5046, 3909, 3409, 2508, 2456, 2395, 2225, 2179, 2136],
+                y2: [5562, 5046, 3909, 3409, 2508, 2456, 2395, 2225, 2179, 2136],
+                type: 'bar',
+                name: 'Primary Product',
+                marker: {
+                  color: 'rgb(174,33,33)',
+                  opacity: 8,
+                }
+              };
+              
+              var data = [trace1];
+              
+              var layout = {
+                title: 'Top 10 States with the most deaths due to gun violence (2013-2018)',
+                xaxis: {
+                  tickangle: -45
+                },
+                barmode: 'group'
+              };
+              
+              Plotly.newPlot('graph', data, layout);
+              
+            </script>
+            
             </div>
           </div>
         </div>
