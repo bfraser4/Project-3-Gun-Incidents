@@ -1,11 +1,23 @@
-const CSV =
-    "Statistics/FirearmStats/firearm_suicides.csv";
+const JSON = fetch('firearm_homicide.json')
+  .then((response) => response.json())
+  .then((json) => console.log(json)) 
 
-function plotFromCSV() {
-    Plotly.d3.csv(CSV, function(err, rows) {
+function plotFromJSON() {
+    Plotly.d3.json(JSON).then(function(rows) {
         processData(rows);
     });
 }
+
+// const CSV = 
+//   "firearm_homicides.csv";
+
+// function plotFromCSV() {
+//   Plotly.d3.csv(CSV, function(err, rows){
+//     processData(rows);
+//     console.log(CSV)
+//   });
+// }
+
 
 function processData(allRows) {
   let x1 = []; //year; on x axis KEEP; x1 in trace 1 keeps year on xaxis
@@ -17,7 +29,7 @@ function processData(allRows) {
   while (i < allRows.length) {
     row = allRows[i];
     x1.push(row["Year"]);
-    y1.push(row["Total_Deaths"]);
+    y1.push(row["Injury_Intent"]);
     // y2.push(row["Total_Deaths"]);
     i += 1;
   }
@@ -65,7 +77,7 @@ function makePlotly(x1, y1) {
 
   let config = { responsive: true };
 
-  Plotly.newPlot("plot", traces, layout, config);
+  Plotly.newPlot("plot", data, layout, config);
 }
 
-plotFromCSV();
+// plotFromJSON();

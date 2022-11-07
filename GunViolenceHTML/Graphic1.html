@@ -31,9 +31,7 @@
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.20.1, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    <!--     -->
-    
-    <!--  -->
+  
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -43,6 +41,7 @@
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Graphic1">
     <meta property="og:type" content="website">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   </head>
   <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-5279"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <a href="Gun-Violence-In-The-USA_Home.html" class="u-image u-logo u-image-1" title="Gun Violence In The USA_Home">
@@ -79,9 +78,57 @@
         </nav>
       </div></header>
     <section class="u-clearfix u-section-1" id="sec-ee94">
+      <div id="myDiv"></div> 
+      <script>
+      var trace1 = {
+        x: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+        y: [19990, 20666, 21175, 21386, 22018, 22938, 23854, 24432, 23941, 24292],
+        mode: 'lines',
+        name: 'Suicides',
+        line: {
+          dash: 'dash',
+          width: 4
+        }
+      };
+      
+      var trace2 = {
+        x: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+        y: [11522, 12093, 11675, 11472, 13463, 14925, 15095, 14497, 14934, 19995],
+        mode: 'lines',
+        name: 'Homicides',
+        line: {
+          dash: 'dot',
+          width: 4
+        }
+      };
+      
+      var data = [trace1, trace2];
+      
+      var layout = {
+        title: 'Types of Gun Incidents',
+        xaxis: {
+          range: [2011, 2020],
+          autorange: false
+        },
+        yaxis: {
+          range: [0, 20000],
+          autorange: true
+        },
+        legend: {
+          y: 0.5,
+          traceorder: 'reversed',
+          font: {
+            size: 16
+          }
+        }
+      };
+      
+      Plotly.newPlot('myDiv', data, layout);
+      </script>
       <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-spacing-top u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
           <div class="u-layout-row">
+           
             <!-- <div class="u-align-left u-container-style u-grey-5 u-layout-cell u-left-cell u-size-20 u-layout-cell-1" src="">
               <div class="u-container-layout u-valign-middle u-container-layout-1">
                 <h2 class="u-text u-text-palette-1-base u-text-1">We’re here to help you to finding a best way</h2>
@@ -91,8 +138,7 @@
             <div class="u-container-style u-image u-layout-cell u-right-cell u-size-40 u-image-1" width="1080" data-image-height="1080"> -->
                 
               <!-- <div class="u-container-layout u-valign-middle u-container-layout-2"> -->
-                <div id="container">
-                
+                  
                 </script>
               </div>
             </div>

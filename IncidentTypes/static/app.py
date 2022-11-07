@@ -74,7 +74,12 @@ def data():
         all_states.append(state_dict)
         print(all_states)
 
+
     # return jsonify(all_states)
     return jsonify(data)
+
+@app.route("/flask.html")
+def html():
+    labels
 if __name__ == '__main__':
     app.run(debug=True)
