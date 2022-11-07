@@ -3,6 +3,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 
 from flask import Flask, request, jsonify, g
+from flask import render_template
+from datetime import time
 import json
 import sqlite3
 import numpy as np
@@ -38,11 +40,11 @@ def welcome():
     """List all available api routes."""
     return (
         f"Available Routes:<br/>"
-        f"/api/v1.0/state_data<br/>"
+        f"/api/state_data<br/>"
     )
 
 
-@app.route("/api/v1.0/state_data")
+@app.route("/api/state_data")
 def data():
     # Create our session (link) from Python to the DB
     session = Session(engine)

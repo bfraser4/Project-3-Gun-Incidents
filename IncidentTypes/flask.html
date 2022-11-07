@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title> Chart.js Example</title>
+    <!--import plugin script-->
+    <!-- <script src="static/Chart.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+<body>
+    <h1> Simple Line Chart </h1>
+    <!-- bar chart canvas element -->
+    <canvas id="myChart" width="600" height="400"></canvas>
+    <p id="caption"> Chart display </p> 
+    <script>
+    // Global parameters:
+    // do not resize the chart canvas when its container does (keep at 600x400px)
+    Chart.defaults.global.responsive = false;
+    // get unique value of array
+   d3="https://d3js.org/d3.v7.min.js"
+     .csv('incident_types.csv')
+     .then(makeChart);
+    function makeChart(data){
+        var state = data.map(function(d) {return d.state;});
+        var value = data.map(function(d) {return d.incident_type;});
+    }
+
+    function onlyUnique(value, index, self){
+        return self.indexOf(value) === index;
+    }
+    var state_unique = data.filter (onlyUnique);
+
+    state.forEach((pro,index) => {
+        if(pro == 'Firearm Homicide'){
+            fh_val.push(value[index]);
+        } else if (pro == 'Firearm Suicide'){
+            fs_val.push(value[index]);
+        } else if (pro == 'Shootings by Police'){
+            sp_val.push(value[index]);
+        } 
+        else {
+            nl_value.push(value[index]);
+        }
+    })
+
+    //Line Chart 
+     new Chart(document.getElementById('myCanvas'), {
+        type: 'line',
+        data: {
+            labels: state_unique,
+            datasets: [{
+                data: fh_val,
+                label: 'Firearm Homicide',
+                borderColor: "#3e95cd", 
+                fill: false
+            },{
+                data: fs_val,
+                label: 'Firearm Homicide',
+                borderColor: "#8e5ea2",
+                fill: false
+            },{
+                data: sp_val, 
+                label: 'Police Shootings', 
+                borderColor: "#3cba9f",
+                fill: false
+            },{
+                data: nl_val, 
+                label: 'NL', 
+                borderColor: "#c45850",
+                fill: false
+            }
+        ]
+    },
+    options: {
+        title: {
+            display: true, 
+            text: '2016 - 2020 Shootings'
+        }, 
+        hover: {
+            mode: 'index', 
+            intersect: true
+        }
+    }
+});
+
+    </script>
+
+
+</body>
+
+</html>
