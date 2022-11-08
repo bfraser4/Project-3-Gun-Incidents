@@ -12,7 +12,15 @@
     <meta name="generator" content="Nicepage 4.20.1, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
-    
+    <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin="" />
+
+<!-- Leaflet JavaScript code -->
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
     
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -61,13 +69,22 @@
     <section class="u-clearfix u-grey-5 u-section-1" id="sec-fcb4">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
+          <!-- <div id="map-container">
+            <div id="map"></div>
+              <script src="https://d3js.org/d3.v5.min.js"></script>
+              <script src="data.js"></script> -->
+              <!-- <script type="text/javascript" src="InteractiveMap/logic.js"></script>
+            </div>
+          </div>   -->
+
           <div id="map-container">
             <div id="map"></div>
               <script src="https://d3js.org/d3.v5.min.js"></script>
               <!-- <script src="data.js"></script> -->
-              <script type="text/javascript" src="InteractiveMap/logic.js"></script>
+              <script type="text/javascript" src="frontPageMap.js"></script>
             </div>
-          </div>  
+
+
           <!-- <div class="u-layout" style="">
             <div class="u-layout-row" style="">
               <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">

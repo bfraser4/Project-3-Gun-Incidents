@@ -1,3 +1,16 @@
+#map-container {
+
+  margin-left: 50px;
+}
+
+
+#map
+ {
+  height: 600px;
+  width: 725px;
+ }  
+
+
 .u-section-1 {
   background-image: none;
 }
@@ -233,15 +246,5 @@
   .u-section-2 .u-sheet-1 {
     min-height: 137px;
   }
-  #map-container {
-
-    margin-left: 50px;
-  }
   
-  
-  #map
-   {
-    height: 600px;
-    width: 725px;
-   }  
 }
