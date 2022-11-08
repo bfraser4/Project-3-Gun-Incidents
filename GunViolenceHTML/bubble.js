@@ -591,8 +591,8 @@ let states = [
   var layout = {
     title: 'Per Capita Gun Incidents',
     showlegend: false,
-    height: 600,
-    width: 1000,
+    height: 500,
+    width: 600,
 
     xaxis: {
       title: {
