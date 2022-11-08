@@ -131,7 +131,7 @@
                           var data = [trace1];
   
                           var layout = {
-                            title: 'Top 10 States with Lowest Cases of Gun Incidents (2016-2020)',
+                            title: '10 States with Lowest Cases of Gun Incidents',
                             barmode: 'stack'
                           };
   
@@ -182,7 +182,7 @@
               var data = [trace1];
               
               var layout = {
-                title: 'Top 10 States with Highest Cases of Gun Incidents (2016-2020)',
+                title: '10 States with Highest Cases of Gun Incidents',
                 xaxis: {
                   tickangle: -45
                 },
@@ -211,11 +211,14 @@
                 'Georgia',
                 'Pennsylvania',
                 'Ohio',
-                'Illinois'
+                'Illinois',
+                'North Carolina', 
+                'Missouri', 
+                'Tennessee'
               ],
               datasets: [{
                 label: 'Suicides',
-                data: [10961, 7972, 8802, 4660, 4877, 4689, 2739],
+                data: [10961, 7972, 8802, 4660, 4877, 4689, 2739, 4161, 3462, 3589],
                 fill: true,
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgb(255, 99, 132)',
@@ -225,7 +228,7 @@
                 pointHoverBorderColor: 'rgb(255, 99, 132)'
               }, {
                 label: 'Homicides',
-                data: [6654, 7155, 5156, 3553, 3057, 3115, 4620],
+                data: [6654, 7155, 5156, 3553, 3057, 3115, 4620, 2854, 2804, 2531],
                 fill: true,
                 backgroundColor: 'rgba(54, 162, 235, 0.2)',
                 borderColor: 'rgb(54, 162, 235)',
@@ -243,7 +246,7 @@
                 plugins: {
                   title: {
                     display: true, 
-                    text: 'Top 7 States with Gun Incidents from 2016-2020',
+                    text: 'Top 10 States Gun Incidents Types (by total population)',
                     padding: {
                       top: 10,
                       bottom: 30
@@ -307,7 +310,7 @@
               plugins: {
                 title: {
                   display: true, 
-                  text: 'California Gun Incidents',
+                  text: 'California Gun Incidents (by total population)',
                   padding: {
                     top: 10,
                     bottom: 30
