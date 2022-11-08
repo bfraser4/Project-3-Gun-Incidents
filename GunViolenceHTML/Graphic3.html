@@ -12,7 +12,6 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <div style="display: flex; justify-content: center"></div>
 
 
@@ -80,14 +79,15 @@
             <!-- <div class="u-align-left u-container-style u-grey-5 u-layout-cell u-left-cell u-size-20 u-layout-cell-1" src=""> -->
               <div class="u-container-layout u-valign-middle u-container-layout-1">
              
-                  <h1 style="text-align: center"> Gun Violence Statistics of the United States (2016-2020) </h1>
+                  <h1 style="text-align: center"> Gun Incidents Statistics (2016-2020) </h1>
                     <div class="wrap-sub">
-                    <h3 style="text-align: center">We found it necessary as a group to analyze different data sets to create various visualizations to show how gun violence has impacted states within our country. 
-                      Additionally, we found it crucial to show trends regarding gun violence between 2016-2020. </h3>
+                    <h3 style="text-align: center">Taking a look at other impactful statistics on gun incidents throughout the country.
+                      </h3>
 
                     <!-- //Inserting 1st Bar Graph -->
                     <!-- <table align="center"> -->
-                      <tr valign="top">
+                     <section class="charts"></section> 
+                     <tr valign="top">
                         <td style="width: 50%;">
                           <div id="map_div" style="width: 400px; height: 300;"></div>
                         </td>
@@ -197,11 +197,13 @@
               
             </script>
             
-        <div class='wrap-sub'></div>
-          <div id="myChart"></div>
+
+          <!-- <div id="myChart"></div> -->
             <canvas id="myChart"></canvas>
-          <script>
-            const data = {
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            
+            <script>
+            const chart = {
               labels: [
                 'Texas',
                 'California',
@@ -236,12 +238,12 @@
           
             const config = {
               type: 'radar',
-              data: data,
+              data: chart,
               options: {
                 plugins: {
                   title: {
                     display: true, 
-                    text: 'Gun Incidents from 2016-2020',
+                    text: 'Top 7 States with Gun Incidents from 2016-2020',
                     padding: {
                       top: 10,
                       bottom: 30
@@ -261,6 +263,70 @@
             config
           );
           </script>
+                    
+      
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <canvas id="california"></canvas>
+        <script>
+          const california = {
+            labels: [
+              '2016',
+              '2017',
+              '2018',
+              '2019',
+              '2020'
+            ],
+            datasets: [{
+              label: 'Suicides',
+              data: [1595, 1610, 1629, 1586, 1552],
+              fill: true,
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              borderColor: 'rgb(255, 99, 132)',
+              pointBackgroundColor: 'rgb(255, 99, 132)',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: 'rgb(255, 99, 132)'
+            }, {
+              label: 'Homicides',
+              data: [1541, 1521, 1356, 1322, 1831],
+              fill: true,
+              backgroundColor: 'rgba(54, 162, 235, 0.2)',
+              borderColor: 'rgb(54, 162, 235)',
+              pointBackgroundColor: 'rgb(54, 162, 235)',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: 'rgb(54, 162, 235)'
+          }]  
+        };
+
+          const configc = {
+            type: 'radar',
+            data: california,
+            options: {
+              plugins: {
+                title: {
+                  display: true, 
+                  text: 'California Gun Incidents',
+                  padding: {
+                    top: 10,
+                    bottom: 30
+                  }
+                }
+              },
+              elements: {
+                line: {
+                  borderWidth: 3
+                }
+              }
+          },
+        };
+
+        const _myChart = new Chart(
+          document.getElementById("california"),
+          configc
+        );
+        </script>
 
             </div>
           </div>
