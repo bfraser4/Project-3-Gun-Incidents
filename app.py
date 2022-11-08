@@ -1,15 +1,14 @@
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
-
-from flask import Flask, request, jsonify, g
-from flask import render_template
+import html
+from flask import Flask, request, jsonify, render_template, Response,redirect
 from datetime import time
 import json
 import sqlite3
 import numpy as np
-
-
+import csv
+import os
 
 #################################################
 # Database Setup
@@ -31,6 +30,29 @@ Incidents = Base.classes.Incidents
 app = Flask(__name__)
 
 
+filePath = './static/data/bluered.csv'
+
+with open('./static/json/election.json', 'r') as f:
+    table1 = json.loads(f.read())
+# 
+@app.route('/election.json', methods=['GET'])
+def election():
+    return jsonify(table1)
+
+with open('./static/json/gz_2010_us_040_00_500kjm.json', 'r') as f:
+    table2 = json.loads(f.read())
+# 
+@app.route('/gz_2010_us_040_00_500kjm.json', methods=['GET'])
+def geo():
+    return jsonify(table2)
+
+
+with open('./static/json/state_data.geojson', 'r') as f:
+    table3 = json.loads(f.read())
+# 
+@app.route('/state_data.geojson', methods=['GET'])
+def geo2():
+    return jsonify(table3)
 #################################################
 # Flask Routes
 #################################################
@@ -78,6 +100,9 @@ def data():
 
     # return jsonify(all_states)
     return jsonify(data)
+
+
+
 
 @app.route("/Graphic1")
 def graphic1():

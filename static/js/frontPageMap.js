@@ -1,5 +1,5 @@
 // Perform a GET request to the query URL/
-d3.json("../json/state_data.geojson").then(function (data) {
+d3.json("/state_data.geojson").then(function (data) {
   console.log(data);
   createFeatures(data.features);
 });

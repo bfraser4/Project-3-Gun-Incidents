@@ -1,8 +1,7 @@
-const CSV =
-    "bluered.csv";
+
 
 function plotFromCSV() {
-    Plotly.d3.csv(CSV, function(err, rows) {
+    Plotly.d3.csv("../data/bluered.csv", function(err, rows) {
         processData(rows);
     });
 }
