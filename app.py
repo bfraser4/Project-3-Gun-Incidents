@@ -29,15 +29,23 @@ Incidents = Base.classes.Incidents
 #################################################
 app = Flask(__name__)
 
-app.config["CLIENT_CSV"] = "D:/UCIBootcamp/Project-3-Gun-Incidents/static/data"
-# filePath = './static/data/bluered.csv'
+# app.config["CLIENT_CSV"] = "D:/UCIBootcamp/Project-3-Gun-Incidents/static/data"
+# # filePath = './static/data/bluered.csv'
 
-@app.route('/data/<csv_filename>',methods = ['GET','POST'])
-def bluered (csv_filename):
-    try:
-        return send_from_directory(app.config["CLIENT_CSV"], filename=csv_filename, as_attachment=True)
-    except FileNotFoundError:
-        abort(404)
+# @app.route('/data/<csv_filename>',methods = ['GET','POST'])
+# def bluered (csv_filename):
+#     try:
+#         return send_from_directory(app.config["CLIENT_CSV"], filename=csv_filename, as_attachment=True)
+#     except FileNotFoundError:
+#         abort(404)
+my_path = os.path.abspath(os.path.dirname(__file__))
+path = os.path.join(my_path, "static/data/bluered.csv")
+with open(path) as f:
+    test = list(csv.reader(f))
+
+@app.route('/bluered.csv', methods=['GET'])
+def bluered():
+    return test
 
 with open('./static/json/election.json', 'r') as f:
     table1 = json.loads(f.read())
