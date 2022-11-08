@@ -1,6 +1,6 @@
 anychart.onDocumentReady(function () {
 
-    anychart.data.loadJsonFile('../Original Files/us_per_capita.geojson', function (data) {
+    anychart.data.loadJsonFile('/us_per_capita.geojson', function (data) {
       
       // Get the names of the records 
       // data.features.map(function(feature){
@@ -134,8 +134,8 @@ anychart.onDocumentReady(function () {
           .title()
           .useHtml(true)
           .text(
-            '<span style = "color: #4c2b04; font-size:20px;">Comparing Popularity of 2021 GRAMMYs Record of the Year Nominations</span>' +
-            '<br/><span style="color:#1db954; font-size: 18px;">(Based on the number of Spotify Streams)</span>'
+            '<span style = "color: #4c2b04; font-size:20px;">Comparing Gun Incident Number Count by City</span>' +
+            '<br/><span style="color:#1db954; font-size: 18px;">(Based on the Record of U.S Gun Violence Data)</span>'
           );
       
         gauge

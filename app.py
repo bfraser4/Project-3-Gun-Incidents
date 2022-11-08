@@ -60,6 +60,35 @@ with open('./static/json/state_data.geojson', 'r') as f:
 @app.route('/state_data.geojson', methods=['GET'])
 def geo2():
     return jsonify(table3)
+
+with open('./static/js/us_per_capita.geojson', 'r') as f:
+    table4 = json.loads(f.read())
+# 
+@app.route('/us_per_capita.geojson', methods=['GET'])
+def geo3():
+    return jsonify(table4)
+
+
+
+with open('./static/js/firearm_suicides.json', 'r') as f:
+    table5 = json.loads(f.read())
+# 
+@app.route('/firearm_suicides.json', methods=['GET'])
+def geo4():
+    return jsonify(table5)
+
+
+
+with open('./static/js/firearm_homicide.json', 'r') as f:
+    table6 = json.loads(f.read())
+# 
+@app.route('/firearm_homicide.json', methods=['GET'])
+def geo5():
+    return jsonify(table6)
+
+
+
+
 #################################################
 # Flask Routes
 #################################################
@@ -71,6 +100,7 @@ def welcome():
         f"Available Routes:<br/>"
         f"/api/state_data<br/>"
         f"/Graphic1<br/>"
+        f"/extraChart<br/>"
     )
 
 
@@ -122,6 +152,11 @@ def graphic3():
     return render_template("Graphic3.html")
 @app.route("/home")
 def home():
-    return render_template("Gun-Violence-In-The-USA_Home.html")    
+    return render_template("Gun-Violence-In-The-USA_Home.html")  
+
+@app.route("/extraChart")
+def graphic4():
+    return render_template("linechart.html")
+
 if __name__ == '__main__':
     app.run(debug=True)

@@ -63,7 +63,7 @@ function buildcharts(dataset) {
 }
 
 function init() {
-  buildcharts("{{ firearm_suicides.json }}");
+  buildcharts("/firearm_suicides.json");
 
 }
 init();
