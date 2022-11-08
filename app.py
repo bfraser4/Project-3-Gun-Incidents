@@ -41,7 +41,7 @@ def welcome():
     return (
         f"Available Routes:<br/>"
         f"/api/state_data<br/>"
-        f"/api/flask.html<br/>"
+        f"/Graphic1<br/>"
     )
 
 
@@ -79,9 +79,17 @@ def data():
     # return jsonify(all_states)
     return jsonify(data)
 
-@app.route("/flask.html")
-def html():
-    return render_template("linechart.html")
-    
+@app.route("/Graphic1")
+def graphic1():
+    return render_template("Graphic1.html")
+@app.route("/Graphic2")
+def graphic2():
+    return render_template("Graphic2.html")
+@app.route("/Graphic3")
+def graphic3():
+    return render_template("Graphic3.html")
+@app.route("/home")
+def home():
+    return render_template("Gun-Violence-In-The-USA_Home.html")    
 if __name__ == '__main__':
     app.run(debug=True)
