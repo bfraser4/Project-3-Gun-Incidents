@@ -12,7 +12,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <div style="display: flex; justify-content: center"></div>
+
 
 
 
@@ -166,7 +168,7 @@
               <script>
               var trace1 = {
                 x: ['Texas', 'California', 'Florida', 'Georgia', 'Pennsylvania', 'Ohio', 'Illinois', 'North Carolina', 'Missouri', 'Tennessee'],
-                // x2: ['Republican', 'Republican', 'Republican', 'Democrat', 'Republican', 'Republican', 'Democrat', 'Democrat', 'Democrat', 'Republican'],
+                x2: ['Republican', 'Republican', 'Republican', 'Democrat', 'Republican', 'Republican', 'Democrat', 'Democrat', 'Democrat', 'Republican'],
                 y: [18235, 15802, 14243, 8466, 8138, 8010, 7257, 7351, 6440, 6365],
                 // y2: [5562, 5046, 3909, 3409, 2508, 2456, 2395, 2225, 2179, 2136],
                 type: 'bar',
@@ -195,6 +197,71 @@
               
             </script>
             
+        <div class='wrap-sub'></div>
+          <div id="myChart"></div>
+            <canvas id="myChart"></canvas>
+          <script>
+            const data = {
+              labels: [
+                'Texas',
+                'California',
+                'Florida',
+                'Georgia',
+                'Pennsylvania',
+                'Ohio',
+                'Illinois'
+              ],
+              datasets: [{
+                label: 'Suicides',
+                data: [10961, 7972, 8802, 4660, 4877, 4689, 2739],
+                fill: true,
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgb(255, 99, 132)',
+                pointBackgroundColor: 'rgb(255, 99, 132)',
+                pointBorderColor: '#fff',
+                pointHoverBackgroundColor: '#fff',
+                pointHoverBorderColor: 'rgb(255, 99, 132)'
+              }, {
+                label: 'Homicides',
+                data: [6654, 7155, 5156, 3553, 3057, 3115, 4620],
+                fill: true,
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgb(54, 162, 235)',
+                pointBackgroundColor: 'rgb(54, 162, 235)',
+                pointBorderColor: '#fff',
+                pointHoverBackgroundColor: '#fff',
+                pointHoverBorderColor: 'rgb(54, 162, 235)'
+            }]  
+          };
+          
+            const config = {
+              type: 'radar',
+              data: data,
+              options: {
+                plugins: {
+                  title: {
+                    display: true, 
+                    text: 'Gun Incidents from 2016-2020',
+                    padding: {
+                      top: 10,
+                      bottom: 30
+                    }
+                  }
+                },
+                elements: {
+                  line: {
+                    borderWidth: 3
+                  }
+                }
+            },
+          };
+          
+          const myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+          );
+          </script>
+
             </div>
           </div>
         </div>
