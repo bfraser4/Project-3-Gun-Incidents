@@ -95,11 +95,25 @@ def geo5():
 
 @app.route("/")
 def welcome():
-    """List all available api routes."""
+    """List all available api routes and routes."""
     return (
-        f"Available Routes:<br/>"
+        f"Data Routes:<br/>"
         f"/api/state_data<br/>"
+        f"----------------<br/>"
+        f"/election.json<br/>"
+        f"/gz_2010_us_040_00_500kjm.json<br/>"
+        f"/state_data.geojson<br/>"
+        f"/us_per_capita.geojson<br/>"
+        f"/firearm_suicides.json<br/>"
+        f"/firearm_homicide.json<br/>"
+        
+        f"----------------<br/>"
+
+        f"HTML Routes:<br/>"
+        f"/home<br/>"
         f"/Graphic1<br/>"
+        f"/Graphic2<br/>"
+        f"/Graphic3<br/>"
         f"/extraChart<br/>"
     )
 
