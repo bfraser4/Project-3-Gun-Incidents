@@ -2,7 +2,7 @@
 var config = {responsive: true}
 var myMap = L.map("map", {
     center: [39.0997, -94.5786],
-    zoom: 5,
+    zoom: 4,
   }, config);
   
   // Adding the tile layer

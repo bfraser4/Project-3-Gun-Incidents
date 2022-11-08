@@ -4,10 +4,8 @@ h1, h3 { text-align: center; }
 
 .wrap-sub {
   width: auto;
-  margin-left: 350px;
-  margin-right: 350px;
-  
-  
+  margin-left: 100px;
+  margin-right: 100px;
    
 }
 
@@ -17,14 +15,30 @@ h1, h3 { text-align: center; }
     margin-bottom: 40px;
 }
 
+
+#map-container {
+
+  margin-left: 50px;
+}
+
+
+#map
+ {
+  height: 600px;
+  width: 725px;
+  
+  } 
+
 /* Set map, body, and html to 100% of the screen size. */ 
-#map,
+/* #map-container,
 body,
 html {
   
-  height: 100%;
+  height: 400px;
+  width: 400px;
   
 }
+
 
  .u-section-1 {
   min-height: 588px;
