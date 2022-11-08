@@ -1,6 +1,10 @@
 #map-container {
 
-  margin-left: 50px;
+  margin-left: 200px;
+  margin-right: 208px;
+  margin-bottom: 25px;
+  border-style: groove;
+
 }
 
 
