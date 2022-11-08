@@ -13,7 +13,7 @@ var myMap = L.map("map", {
   // // Getting our GeoJSON data
   x = []
   
-  d3.json("Resources/election.json").then(function (data) {
+  d3.json("election.json").then(function (data) {
     x = data.data
     // console.log(x)
   
