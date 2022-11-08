@@ -3,7 +3,7 @@
   margin-left: 200px;
   margin-right: 208px;
   margin-bottom: 25px;
-  border-style: groove;
+
 
 }
 
@@ -12,6 +12,7 @@
  {
   height: 600px;
   width: 725px;
+  border-style: groove;
  }  
 
 
