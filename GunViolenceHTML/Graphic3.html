@@ -98,9 +98,9 @@
                     </table>
                     <div id='plot'></div>
                     <script>
-                          var xValue = ['Hawaii', 'Vermont', 'Wyoming', 'South Dakota', 'North Dakota', 'Montana', 'Idaho', 'Rhode Island', 'Maine', 'New Hampshire'];
+                          var xValue = ['Rhode Island', 'Hawaii', 'Vermont', 'North Dakota', 'Delaware', 'South Dakota', 'Wyoming', 'DC', 'New Hampshire', 'Maine'];
   
-                          var yValue = [289, 472, 494, 544, 573, 638, 661, 895, 907, 964];
+                          var yValue = [231, 276, 373, 475, 557, 559, 625, 640, 717, 770];
   
                           var trace1 = {
                             x: xValue,
@@ -126,7 +126,7 @@
                           var data = [trace1];
   
                           var layout = {
-                            title: 'Top 10 States with the lowest Cases of Gun Violence (2013-2018)',
+                            title: 'Top 10 States with Lowest Cases of Gun Incidents (2016-2020)',
                             barmode: 'stack'
                           };
   
@@ -162,10 +162,10 @@
               <div id="graph"></div>
               <script>
               var trace1 = {
-                x: ['California', 'Texas', 'Florida', 'Illinois', 'Ohio', 'Georgia', 'Pennsylvania', 'North Carolina', 'Louisiana', 'Missouri'],
-                x2: ['Democrat', 'Republican', 'Republican', 'Democrat', 'Republican', 'Republican', 'Democrat', 'Democrat', 'Democrat', 'Republican'],
-                y: [5562, 5046, 3909, 3409, 2508, 2456, 2395, 2225, 2179, 2136],
-                y2: [5562, 5046, 3909, 3409, 2508, 2456, 2395, 2225, 2179, 2136],
+                x: ['Texas', 'California', 'Florida', 'Georgia', 'Pennsylvania', 'Ohio', 'Illinois', 'North Carolina', 'Missouri', 'Tennessee'],
+                // x2: ['Republican', 'Republican', 'Republican', 'Democrat', 'Republican', 'Republican', 'Democrat', 'Democrat', 'Democrat', 'Republican'],
+                y: [18235, 15802, 14243, 8466, 8138, 8010, 7257, 7351, 6440, 6365],
+                // y2: [5562, 5046, 3909, 3409, 2508, 2456, 2395, 2225, 2179, 2136],
                 type: 'bar',
                 name: 'Primary Product',
                 marker: {
@@ -177,9 +177,13 @@
               var data = [trace1];
               
               var layout = {
-                title: 'Top 10 States with the most deaths due to gun violence (2013-2018)',
+                title: 'Top 10 States with Highest Cases of Gun Incidents (2016-2020)',
                 xaxis: {
                   tickangle: -45
+                },
+                yaxis: {
+                  range: [0, 20000], 
+                  autorange: false
                 },
                 barmode: 'group'
               };
