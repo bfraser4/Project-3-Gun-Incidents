@@ -162,9 +162,7 @@
               </table>
             </div>
           </div>  -->
-          
-            
-              <div id="graph"></div>
+          <div id="graph"></div>
               <script>
               var trace1 = {
                 x: ['Texas', 'California', 'Florida', 'Georgia', 'Pennsylvania', 'Ohio', 'Illinois', 'North Carolina', 'Missouri', 'Tennessee'],
@@ -182,7 +180,7 @@
               var data = [trace1];
               
               var layout = {
-                title: 'Top 10 States with Highest Cases of Gun Incidents (2016-2020)',
+                title: '10 States with Highest Cases of Gun Incidents',
                 xaxis: {
                   tickangle: -45
                 },
@@ -197,70 +195,141 @@
               
             </script>
             
-        <div class='wrap-sub'></div>
-          <div id="myChart"></div>
-            <canvas id="myChart"></canvas>
-          <script>
-            const data = {
-              labels: [
-                'Texas',
-                'California',
-                'Florida',
-                'Georgia',
-                'Pennsylvania',
-                'Ohio',
-                'Illinois'
-              ],
-              datasets: [{
-                label: 'Suicides',
-                data: [10961, 7972, 8802, 4660, 4877, 4689, 2739],
-                fill: true,
-                backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                borderColor: 'rgb(255, 99, 132)',
-                pointBackgroundColor: 'rgb(255, 99, 132)',
-                pointBorderColor: '#fff',
-                pointHoverBackgroundColor: '#fff',
-                pointHoverBorderColor: 'rgb(255, 99, 132)'
-              }, {
-                label: 'Homicides',
-                data: [6654, 7155, 5156, 3553, 3057, 3115, 4620],
-                fill: true,
-                backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                borderColor: 'rgb(54, 162, 235)',
-                pointBackgroundColor: 'rgb(54, 162, 235)',
-                pointBorderColor: '#fff',
-                pointHoverBackgroundColor: '#fff',
-                pointHoverBorderColor: 'rgb(54, 162, 235)'
-            }]  
-          };
+          <canvas id="myChart"></canvas>
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
           
-            const config = {
-              type: 'radar',
-              data: data,
-              options: {
-                plugins: {
-                  title: {
-                    display: true, 
-                    text: 'Gun Incidents from 2016-2020',
-                    padding: {
-                      top: 10,
-                      bottom: 30
-                    }
-                  }
-                },
-                elements: {
-                  line: {
-                    borderWidth: 3
+          <script>
+          const chart = {
+            labels: [
+              'Texas',
+              'California',
+              'Florida',
+              'Georgia',
+              'Pennsylvania',
+              'Ohio',
+              'Illinois',
+              'North Carolina', 
+              'Missouri', 
+              'Tennessee'
+            ],
+            datasets: [{
+              label: 'Suicides',
+              data: [10961, 7972, 8802, 4660, 4877, 4689, 2739, 4161, 3462, 3589],
+              fill: true,
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              borderColor: 'rgb(255, 99, 132)',
+              pointBackgroundColor: 'rgb(255, 99, 132)',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: 'rgb(255, 99, 132)'
+            }, {
+              label: 'Homicides',
+              data: [6654, 7155, 5156, 3553, 3057, 3115, 4620, 2854, 2804, 2531],
+              fill: true,
+              backgroundColor: 'rgba(54, 162, 235, 0.2)',
+              borderColor: 'rgb(54, 162, 235)',
+              pointBackgroundColor: 'rgb(54, 162, 235)',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: 'rgb(54, 162, 235)'
+          }]  
+        };
+        
+          const config = {
+            type: 'radar',
+            data: chart,
+            options: {
+              plugins: {
+                title: {
+                  display: true, 
+                  text: 'Top 10 States with Highest Gun Incident Rates (by total population)',
+                  padding: {
+                    top: 10,
+                    bottom: 30
                   }
                 }
-            },
-          };
-          
-          const myChart = new Chart(
-            document.getElementById('myChart'),
-            config
-          );
-          </script>
+              },
+              elements: {
+                line: {
+                  borderWidth: 3
+                }
+              }
+          },
+        };
+        
+        const myChart = new Chart(
+          document.getElementById('myChart'),
+          config
+        );
+        </script>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <canvas id="california"></canvas>
+        <script>
+          const california = {
+            labels: [
+              '2016',
+              '2017',
+              '2018',
+              '2019',
+              '2020'
+            ],
+            datasets: [{
+              label: 'Suicides',
+              data: [1595, 1610, 1629, 1586, 1552],
+              fill: true,
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              borderColor: 'rgb(255, 99, 132)',
+              pointBackgroundColor: 'rgb(255, 99, 132)',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: 'rgb(255, 99, 132)'
+            }, {
+              label: 'Homicides',
+              data: [1541, 1521, 1356, 1322, 1831],
+              fill: true,
+              backgroundColor: 'rgba(54, 162, 235, 0.2)',
+              borderColor: 'rgb(54, 162, 235)',
+              pointBackgroundColor: 'rgb(54, 162, 235)',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: 'rgb(54, 162, 235)'
+          }]  
+        };
+
+          const configc = {
+            type: 'radar',
+            data: california,
+            options: {
+              plugins: {
+                title: {
+                  display: true, 
+                  text: 'California Gun Incidents (by total population)',
+                  padding: {
+                    top: 10,
+                    bottom: 30
+                  }
+                }
+              },
+              elements: {
+                line: {
+                  borderWidth: 3
+                }
+              }
+          },
+        };
+
+        const _myChart = new Chart(
+          document.getElementById("california"),
+          configc
+        );
+        </script>
 
             </div>
           </div>
