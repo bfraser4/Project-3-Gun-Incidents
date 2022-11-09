@@ -8,20 +8,6 @@
     <meta name="description" content="">
     <title>Incident Types</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-    <style type="text/css">
-      html,
-      body,
-      #container {
-        width: 100%;
-        height: 105%;
-        margin-right: 5px;
-        margin: 0;
-        padding: 0;
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,9,121,0.9878326330532213) 35%, rgba(0,212,255,1) 100%);
-      }
-    </style>
     
     
     <link rel="stylesheet" href="nicepage.css" media="screen">
@@ -35,8 +21,8 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "",
-		"logo": "images/default-logo.png"
-}</script>
+		"logo": "images/default-logo.png"}
+  </script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Graphic1">
     <meta property="og:type" content="website">
@@ -77,6 +63,8 @@
         </nav>
       </div></header>
     <section class="u-clearfix u-section-1" id="sec-ee94">
+      <h2><p style="text-align: center">Gun Incident Types</p></h2>
+ 
       <div id="myDiv"></div> 
       <script>
       var trace1 = {
@@ -125,10 +113,11 @@
       Plotly.newPlot('myDiv', data, layout);
       </script>
 
-
+<h4><p style="text-align: center">Police Shootings, 2016-2020</p></h4>
 
 <canvas id="myChart"> </canvas>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
       
     <script>
 var barChartData = {
@@ -141,14 +130,14 @@ var barChartData = {
   ],
   datasets: [
     {
-      label: "Total Deaths - Police Shooting",
+      label: "Total Deaths",
       backgroundColor: "pink",
       borderColor: "red",
       borderWidth: 1,
       data: [416, 214, 130, 124, 106]
     },
     {
-      label: "Average Yearly Deaths - Police Shooting",
+      label: "Average Yearly Deaths",
       backgroundColor: "lightblue",
       borderColor: "blue",
       borderWidth: 1,
@@ -164,7 +153,7 @@ var chartOptions = {
   },
   title: {
     text: "Police Shootings (2016-2020)",
-    position: 'top'
+    position: "top"
   },
   scales: {
     yAxes: [{
@@ -180,7 +169,7 @@ window.onload = function() {
   window.myBar = new Chart(ctx, {
     type: "bar",
     data: barChartData,
-    options: chartOptions,
+    options: chartOptions
   });
 };
 

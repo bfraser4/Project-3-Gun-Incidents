@@ -1,3 +1,27 @@
+#plot{
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+ }
+
+ #graph{
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+ }
+
+ #myChart{
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+ }
+
+ #california{
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+ }
+ 
  .u-section-1 {
   min-height: 588px;
 }
